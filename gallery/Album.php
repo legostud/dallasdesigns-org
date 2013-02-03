@@ -28,6 +28,12 @@ if ( !$_POST['name'] == '' && $_GET['cmd'] == 'new')
 	$category = nextCategory();
 	//record the code for the category
 	$stringXML .= "<category>$category</category>\n";
+	//record the code for the caption
+	$caption = $_POST['caption'];
+	$stringXML .= "<caption><![CDATA[$caption]]></caption>\n";
+	//record the code for the theme
+	$theme = $_POST['theme'];
+	$stringXML .= "<theme>$theme</theme>\n";
 	//record the end tag and final tag
 	$stringXML .= "</album>\n</albums>";
 	//open the Albums.xml file for reading
@@ -213,10 +219,14 @@ function getCategory() {
 <body>
 <?php include ('Top.php'); ?><br />
 <font color="#FF0000"><?php echo $message; ?></font>
-<form method="post" action="Album.php?cmd=new" onsubmit="return validate_form(this)" enctype="multipart/form-data"> 
+<form method="post" action="Album.php?cmd=new" onSubmit="return validate_form(this)" enctype="multipart/form-data"> 
 <strong>Create a new Category</strong><br /><br />
   	Category Name:<br />
   	<input name="name" type="text" /><br /><br />
+  	Category Caption:<br />
+  	<input name="caption" type="text" /><br /><br />
+  	Keywords ( | delimited ):<br />
+  	<input name="keyword" type="text" /><br /><br />
 	<input name="submit" type="submit" value="Sumbit" class="form">  <input type="reset" value="Clear" class="form"> 
 </form>
 <p><br />
