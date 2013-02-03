@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+
+<body>
+&lt;?php<br />
+//Room has five images with potential links to other rooms<br />
+class Labrynth {<br />
+//this is the image of the rooms floor <br />
+public $floorImg;<br />
+//each of these variables contains an &lt;img tag within a &lt;href tag<br />
+public $northTag; //<br />
+public $eastTag;<br />
+public $westTag;<br />
+public $southTag;<br />
+<br />
+//CreateTag returns either a linked image tag or just an image tag<br />
+public function CreateTag($image,$room){<br />
+//create just an image tag if the room argument is null<br />
+if($room == NULL) {<br />
+return &quot;&lt;img src=\&quot;MazeImages/$image\&quot; /&gt;&quot;;<br />
+} //else create a linked image tag<br />
+else {<br />
+$room *= 314;<br />
+return &quot;&lt;a href=\&quot;index.php?room=$room\&quot;&gt;&lt;img src=\&quot;MazeImages/$image\&quot; 
+border=\&quot;0\&quot; /&gt;&lt;/a&gt;&quot;;<br />
+}<br />
+}<br />
+}<br />
+<br />
+<br />
+if(!isset($_SESSION['maze'])) {<br />
+//open the connection to the database server<br />
+$conn = mysql_connect(&quot;db124a.pair.com&quot;,&quot;guigui_4_r&quot;,&quot;qbYivnxr&quot;);<br />
+//connect to the Database<br />
+mysql_select_db(&quot;guigui_Maze&quot;,$conn);<br />
+//retrieve the maze data<br />
+$mazeID = 1; //which maze to pull<br />
+$sql = &quot;SELECT * FROM `Rooms`&quot;; // WHERE 'MazeID'=$mazeID&quot;;<br />
+$result = mysql_query($sql, $conn) or die(mysql_error());
+<p> $Maze = new Labrynth;<br />
+  //loop through the returned data and assign to the Maze class<br />
+  while ($newArray = mysql_fetch_array($result)) {<br />
+  $roomID = $newArray['RoomID'];<br />
+  $Maze-&gt;northTag[$roomID] = $Maze-&gt;CreateTag($newArray['imgNorth'],$newArray['roomNorth']);<br />
+  $Maze-&gt;eastTag[$roomID] = $Maze-&gt;CreateTag($newArray['imgEast'],$newArray['roomEast']);<br />
+  $Maze-&gt;southTag[$roomID] = $Maze-&gt;CreateTag($newArray['imgSouth'],$newArray['roomSouth']);<br />
+  $Maze-&gt;westTag[$roomID] = $Maze-&gt;CreateTag($newArray['imgWest'],$newArray['roomWest']);<br />
+  $Maze-&gt;floorTag[$roomID] = $Maze-&gt;CreateTag($newArray['imgFloor'],NULL);<br />
+  }<br />
+  $_SESSION['maze'] = $Maze;<br />
+  }<br />
+  else {<br />
+  $Maze = $_SESSION['maze'];<br />
+  }<br />
+  <br />
+  //if a room number is not passed to the page set the room number to the starting 
+  room (defualt is 1)<br />
+  if(!isset($room)) {<br />
+  $room = 1; <br />
+  }<br />
+  else {<br />
+  $room /= 314;<br />
+  }</p>
+<p>echo &quot;<br />
+  &lt;html&gt;<br />
+  &lt;head&gt;<br />
+  &lt;title&gt;Maze $mazeID&lt;/title&gt;<br />
+  &lt;/head&gt;</p>
+<p>&lt;body bgcolor=\&quot;#000000\&quot; text=\&quot;#FFFFFF\&quot;&gt;<br />
+  View Code&lt;br /&gt;&lt;br /&gt;<br />
+  &lt;table&gt;<br />
+  &lt;tr&gt;<br />
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;<br />
+  &lt;td&gt;{$Maze-&gt;northTag[$room]}&lt;/td&gt;<br />
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;<br />
+  &lt;/tr&gt;<br />
+  &lt;tr&gt;<br />
+  &lt;td&gt;{$Maze-&gt;westTag[$room]}&lt;/td&gt;<br />
+  &lt;td&gt;{$Maze-&gt;floorTag[$room]}&lt;/td&gt;<br />
+  &lt;td&gt;{$Maze-&gt;eastTag[$room]}&lt;/td&gt;<br />
+  &lt;/tr&gt;<br />
+  &lt;tr&gt;<br />
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;<br />
+  &lt;td&gt;{$Maze-&gt;southTag[$room]}&lt;/td&gt;<br />
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;<br />
+  &lt;/tr&gt;<br />
+  &lt;/table&gt;&lt;/body&gt;<br />
+  &lt;/html&gt;&quot;;<br />
+  ?&gt;</p>
+</body>
+</html>

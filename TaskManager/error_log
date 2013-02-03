@@ -1,0 +1,1 @@
+[09-Mar-2011 12:56:02] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'db65b.pair.com' (2) in /home2/legostud/public_html/dallasdesigns-org/TaskManager/taskmanager.php on line 3

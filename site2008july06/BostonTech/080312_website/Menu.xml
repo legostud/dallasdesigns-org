@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<menus>
+	<menu page = "aboutus/index.php" alttag = "About Us" imgtag = "menu_aboutus.jpg" >
+		<options>
+			<option placement = "1" page = "company">
+				<text>Company Profile</text>
+			</option>
+		</options>
+	</menu>
+	<menu page = "products/index.php" alttag = "Products" imgtag = "menu_products.jpg" >
+		<options>
+			<option placement = "1" page = "selfaccount">
+				<text>Self Training Accounts</text>
+			</option>
+		</options>
+	</menu>
+</menus>

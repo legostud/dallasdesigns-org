@@ -1,0 +1,79 @@
+/* CSS Document */
+
+#bodytext a {
+	color: #333333;
+}
+#bodytext {
+	position:absolute;
+	top: 168px;
+	width: 800px;
+	height: 86px;
+	left: 22px; 
+	z-index:10; 
+}
+.print {
+	height: 20px;
+	color: red;
+	font-weight: bold;
+}
+.row {
+	width:100%;
+}
+.title {
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+	width: 100%;
+	padding: 10px;
+}
+.contact {
+	width: 100%;
+	text-align: center;
+}
+.section{
+	width: 100%;
+	text-transform: uppercase;	
+	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: solid #333333 thin;
+}
+.objective {
+	margin-left: 50px;
+}
+.skilltype {
+	width: 150px;
+	float: left;
+	height: 20px;
+	margin-left: 50px;
+}
+.skill {
+
+}
+.timeframe {
+	float:left;
+	width:160px;
+	margin-left: 50px;
+}
+.company {
+	float:left;
+	width:340px;
+	text-align:center;
+	font-weight: bold;
+}
+.location {
+	float:right;
+	width:200px;
+	text-align:right;
+}
+.jobtitle {
+	width:650px;
+	margin-left:50px;
+	font-style:italic;
+	clear: left;
+}
+.jobdesc {
+	width: 650px;;
+	margin-left: 50px;
+	margin-bottom: 15px;
+}

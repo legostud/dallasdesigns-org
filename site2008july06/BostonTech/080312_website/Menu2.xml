@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- you must always have more than one sub menu "option" - use <option /> for a blank -->
+<menus>
+	<menu>
+		<page>aboutus/index.php</page>
+		<alttag>About Us</alttag>
+		<imgtag>menu_aboutus.jpg"</imgtag>
+		<options>
+			<option />
+			<option>
+				<placement>1</placement>
+				<page>company</page>
+				<text>Company Profile</text>
+			</option>
+		</options>
+	</menu>
+	<menu>
+		<page>products/index.php</page>
+		<alttag>Products</alttag>
+		<imgtag>menu_products.jpg</imgtag>
+		<options>
+			<option />
+			<option>
+			<placement>1</placement>
+			<page>selfaccount</page>
+			<text>Self Training Accounts</text>
+			</option>
+		</options>
+	</menu>
+</menus>

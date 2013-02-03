@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+
+<body>
+&lt;html&gt;<br />
+&lt;head&gt;<br />
+&lt;title&gt;Draw Poker&lt;/title&gt;<br />
+&lt;script language=&quot;JavaScript1.1&quot; type=&quot;text/javascript&quot;&gt;<br />
+var score = 100;<br />
+var dealt = false;<br />
+var hand = new Array(6);<br />
+var held = new Array(6);<br />
+var deck = new Array(53);<br />
+function DealDraw() {<br />
+if (dealt == true) Draw();<br />
+else Deal();<br />
+}<br />
+function Deal() {<br />
+// fill the deck (in order, for now)<br />
+for (i=1; i&lt;14; i++) {<br />
+deck[i] = new Card(i,&quot;c&quot;);<br />
+deck[i+13] = new Card(i,&quot;h&quot;);<br />
+deck[i+26] = new Card(i,&quot;s&quot;);<br />
+deck[i+39] = new Card(i,&quot;d&quot;);<br />
+}<br />
+// shuffle the deck<br />
+var n = Math.floor(400 * Math.random() + 500);<br />
+for (i=1; i&lt;n; i++) {<br />
+card1 = Math.floor(52*Math.random() + 1);<br />
+card2 = Math.floor(52*Math.random() + 1);<br />
+temp = deck[card2];<br />
+deck[card2] = deck[card1];<br />
+deck[card1] = temp;<br />
+}<br />
+// deal and display cards<br />
+for (i=1; i&lt;6; i++) {<br />
+hand[i] = deck[i];<br />
+document.images[i].src = hand[i].fname();<br />
+document.images[i+5].src = &quot;images/hold.gif&quot;;<br />
+held[i] = false;<br />
+}<br />
+dealt = true;<br />
+score = score - 1; //deduct one for bet amount<br />
+document.form1.total.value = score;<br />
+document.images[11].src = &quot;images/draw.gif&quot;;<br />
+Addscore();<br />
+}<br />
+//Hold or discard a card<br />
+function Hold(num) {<br />
+if (!dealt) return;<br />
+if (!held[num]) {<br />
+held[num]=true;<br />
+document.images[5+num].src=&quot;images/hold2.gif&quot;;<br />
+}<br />
+else {<br />
+held[num]=false;<br />
+document.images[5+num].src=&quot;images/hold.gif&quot;;<br />
+}<br />
+}<br />
+//Draw new cards<br />
+function Draw() {<br />
+var curcard = 6;<br />
+for (i=1; i&lt;6; i++) {<br />
+if (!held[i]) {<br />
+hand[i] = deck[curcard++];<br />
+document.images[i].src = hand[i].fname();<br />
+}<br />
+}<br />
+dealt = false;<br />
+document.images[11].src=&quot;images/deal.gif&quot;;<br />
+score += Addscore();<br />
+document.form1.total.value = score;<br />
+}<br />
+//Make a filename for an image, given Card object<br />
+function fname() {<br />
+return &quot;images/&quot; + this.num + this.suit + &quot;.gif&quot;;<br />
+}<br />
+//Constructor for Card objects<br />
+function Card(num,suit) {<br />
+this.num = num;<br />
+this.suit = suit;<br />
+this.fname = fname;<br />
+}<br />
+//Numeric sort function<br />
+function Numsort(a,b) { return a - b; }<br />
+//Calculate Score<br />
+function Addscore() {<br />
+var straight = false;<br />
+var flush = false;<br />
+var pairs = 0;<br />
+var three = false;<br />
+var tally = new Array(14);<br />
+//sorted array for convenience<br />
+var nums = new Array(5);<br />
+for (i=0; i&lt;5; i++) {<br />
+nums[i] = hand[i+1].num;<br />
+}<br />
+nums.sort(Numsort);<br />
+//flush<br />
+if (hand[1].suit == hand[2].suit &amp;&amp;<br />
+hand[2].suit == hand[3].suit &amp;&amp;<br />
+hand[3].suit == hand[4].suit &amp;&amp; <br />
+hand[4].suit == hand[5].suit) flush = true;<br />
+//straight (Ace low)<br />
+if (nums[0] == nums[1] - 1 &amp;&amp; <br />
+nums[1] == nums[2] - 1 &amp;&amp; <br />
+nums[2] == nums[3] - 1 &amp;&amp; <br />
+nums[3] == nums[4] - 1) straight = true;<br />
+//straight (Ace high)<br />
+if (nums[0] == 1 &amp;&amp; <br />
+nums[1] == 10 &amp;&amp; <br />
+nums[2] == 11 &amp;&amp; <br />
+nums[3] == 12 &amp;&amp; <br />
+nums[4] == 13) straight = true;<br />
+//royal flush, straight flush, straight, flush<br />
+if (straight &amp;&amp; flush &amp;&amp; nums[4] == 13 &amp;&amp; nums[0] == 1) 
+{<br />
+document.form1.message.value=&quot;Royal Flush&quot;;<br />
+return 100;<br />
+}<br />
+if (straight &amp;&amp; flush) {<br />
+document.form1.message.value=&quot;Straight Flush&quot;;<br />
+return 50;<br />
+}<br />
+if (straight) {<br />
+document.form1.message.value=&quot;Straight&quot;;<br />
+return 4;<br />
+}<br />
+if (flush) {<br />
+document.form1.message.value=&quot;Flush&quot;;<br />
+return 5;<br />
+}<br />
+//Tally array is a count for each card value<br />
+for (i=1; i&lt;14; i++) {<br />
+tally[i] = 0;<br />
+}<br />
+for (i=0; i&lt;5; i++) {<br />
+tally[nums[i]] += 1;<br />
+}<br />
+for (i=1; i&lt;14; i++) {<br />
+if (tally[i] == 4) {<br />
+document.form1.message.value = &quot;Four of a Kind&quot;;<br />
+return 25;<br />
+}<br />
+if (tally[i] == 3) three = true;<br />
+if (tally[i] == 2) pairs += 1;<br />
+}<br />
+if (three &amp;&amp; pairs == 1) {<br />
+document.form1.message.value = &quot;Full House&quot;;<br />
+return 10;<br />
+}<br />
+if (pairs == 2) {<br />
+document.form1.message.value = &quot;Two Pair&quot;;<br />
+return 2;<br />
+}<br />
+if (three) {<br />
+document.form1.message.value = &quot;Three of a kind&quot;;<br />
+return 3;<br />
+}<br />
+if (pairs == 1) {<br />
+if (tally[1] == 2 || tally[11] == 2 || tally[12] == 2 || tally[13] == 2) {<br />
+document.form1.message.value = &quot;Jacks or Better&quot;;<br />
+return 1;<br />
+}<br />
+}<br />
+document.form1.message.value = &quot;No Score&quot;;<br />
+return 0;<br />
+}<br />
+&lt;/script&gt;<br />
+&lt;/head&gt;
+<p>&lt;body onLoad=&quot;DealDraw();&quot;&gt;<br />
+  &lt;img src=&quot;images/title.gif&quot; width=&quot;381&quot; height=&quot;81&quot;&gt;<br />
+  &lt;hr&gt;<br />
+  &lt;form name=&quot;form1&quot;&gt;<br />
+  &lt;table&gt;<br />
+  &lt;tr&gt;<br />
+  &lt;td&gt;&lt;img border=&quot;0&quot; src=&quot;images/blank.gif&quot; height=&quot;136&quot; 
+  width=&quot;106&quot;&gt;&lt;/td&gt;<br />
+  &lt;td&gt;&lt;img border=&quot;0&quot; src=&quot;images/blank.gif&quot; height=&quot;136&quot; 
+  width=&quot;106&quot;&gt;&lt;/td&gt;<br />
+  &lt;td&gt;&lt;img border=&quot;0&quot; src=&quot;images/blank.gif&quot; height=&quot;136&quot; 
+  width=&quot;106&quot;&gt;&lt;/td&gt;<br />
+  &lt;td&gt;&lt;img border=&quot;0&quot; src=&quot;images/blank.gif&quot; height=&quot;136&quot; 
+  width=&quot;106&quot;&gt;&lt;/td&gt;<br />
+  &lt;td&gt;&lt;img border=&quot;0&quot; src=&quot;images/blank.gif&quot; height=&quot;136&quot; 
+  width=&quot;106&quot;&gt;&lt;/td&gt;<br />
+  &lt;/tr&gt;<br />
+  &lt;tr&gt;<br />
+  &lt;td&gt;&lt;a href=&quot;#&quot; onClick=&quot;Hold(1);&quot;&gt;&lt;img border=&quot;0&quot; 
+  src=&quot;images/hold.gif&quot; height=&quot;50&quot; width=&quot;106&quot;&gt;&lt;/a&gt;&lt;/td&gt;<br />
+  &lt;td&gt;&lt;a href=&quot;#&quot; onClick=&quot;Hold(2);&quot;&gt;&lt;img border=&quot;0&quot; 
+  src=&quot;images/hold.gif&quot; height=&quot;50&quot; width=&quot;106&quot;&gt;&lt;/a&gt;&lt;/td&gt;<br />
+  &lt;td&gt;&lt;a href=&quot;#&quot; onClick=&quot;Hold(3);&quot;&gt;&lt;img border=&quot;0&quot; 
+  src=&quot;images/hold.gif&quot; height=&quot;50&quot; width=&quot;106&quot;&gt;&lt;/a&gt;&lt;/td&gt;<br />
+  &lt;td&gt;&lt;a href=&quot;#&quot; onClick=&quot;Hold(4);&quot;&gt;&lt;img border=&quot;0&quot; 
+  src=&quot;images/hold.gif&quot; height=&quot;50&quot; width=&quot;106&quot;&gt;&lt;/a&gt;&lt;/td&gt;<br />
+  &lt;td&gt;&lt;a href=&quot;#&quot; onClick=&quot;Hold(5);&quot;&gt;&lt;img border=&quot;0&quot; 
+  src=&quot;images/hold.gif&quot; height=&quot;50&quot; width=&quot;106&quot;&gt;&lt;/a&gt;&lt;/td&gt;<br />
+  &lt;/tr&gt;<br />
+  &lt;tr&gt;<br />
+  &lt;td&gt;<br />
+  &lt;b&gt;Total&lt;br&gt;Score:&lt;/b&gt;<br />
+  &lt;input type=&quot;text&quot; size=&quot;6&quot; name=&quot;total&quot; value=&quot;100&quot;&gt;<br />
+  &lt;/td&gt;<br />
+  &lt;td colspan=&quot;2&quot;&gt;<br />
+  &lt;b&gt;Current&lt;br&gt;Hand:&lt;/b&gt;<br />
+  &lt;input type=&quot;text&quot; size=&quot;20&quot; name=&quot;message&quot; 
+  value=&quot;Press DEAL to begin.&quot;&gt;<br />
+  &lt;/td&gt;<br />
+  &lt;td&gt;<br />
+  &lt;img border=&quot;0&quot; src=&quot;images/deal.gif&quot; height=&quot;50&quot; 
+  width=&quot;106&quot; onClick=&quot;DealDraw();&quot;&gt;<br />
+  &lt;/td&gt;<br />
+  &lt;tr&gt;<br />
+  &lt;td colspan=&quot;4&quot;&gt;<br />
+  100pts - Royal Flush&lt;br&gt;<br />
+  50pts - Straight Flush&lt;br&gt;<br />
+  25pts - Four of a kind&lt;br&gt;<br />
+  10 pts - Full house&lt;br&gt;<br />
+  5pts - Flush&lt;br&gt;<br />
+  4pts - Straight&lt;br&gt;<br />
+  3pts - Three of kind&lt;br&gt;<br />
+  2pts - Two Pair&lt;br&gt;<br />
+  1pts - Jacks or better<br />
+  &lt;/td&gt;<br />
+  &lt;/tr&gt;<br />
+  &lt;/tr&gt;<br />
+  &lt;/table&gt;<br />
+  &lt;/form&gt;<br />
+  &lt;/body&gt;<br />
+  &lt;/html&gt;</p>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Creating a Navigation Tree</title>
+<style>
+A {text-decoration: none;}
+</style>
+<script language="JavaScript" type="text/javascript">
+function Toggle(item) {
+	obj=document.getElementById(item);
+	visible=(obj.style.display!="none");
+	key=document.getElementById("x" + item);
+	if (visible) {
+		obj.style.display="none";
+		key.innerHTML="[+]";
+	}
+	else {
+		obj.style.display="block";
+		key.innerHTML="[-]";
+	}
+}	
+</script>
+</head>
+
+<body>
+<h1>Naviagtion Tree Example</h1>
+<p>The navigation tree below allows you to expand and
+collape items.  You could use this in a frame to provide a
+sphpisticated navigation system for a site.</p>
+<hr />
+<strong><a id="xsupport" href="javascript:Toggle('support');">[+]</a>
+Support</strong><br />
+<div id="support" style="display:none; margin-left:2em;">
+	<a href="sforum.html">Support Forum</a><br />
+	<a href="sforum.html">Contact Support</a><br />
+</div>
+<strong><a id="xcontact" href="javascript:Toggle('contact');">[+]</a>
+Contact Us</strong>
+<div id="contact" style="display:none; margin-left:2em;">
+	<a href="contact1.html">Service Department</a><br />
+	<a href="contact2.html">Sales Department</a><br />
+</div><br />
+<strong><a id="xitems" href="javascript:Toogle('items');">[+]</a>
+Products</strong><br />
+<div id="contact" style="display:none; margin-left:2em;">
+	<a href="prodlist.html">Product List</a><br />
+	<a href="order.html">Order Form</a><br />
+	<a href="pricelist.html">Price List</a><br />
+</div>
+</body>
+</html>

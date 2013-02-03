@@ -1,0 +1,56 @@
+/* Buttons - set all default styles */
+a.d01:link, a.d01:visited, a.d01.active, a.d01:hover, a.d02:link, a.d02:visited, a.d02.active, a.d02:hover, a.d03:link, a.d03:visited, a.d03.active, a.d03:hover, a.d04:link, a.d04:visited, a.d04.active, a.d04:hover, a.d05:link, a.d05:visited, a.d05.active, a.d05:hover, a.d06:link, a.d06:visited, a.d06.active, a.d06:hover {
+	float:none;
+	border:#888 1px solid;
+	margin:2px 6px;
+	padding:3px 6px;
+	font-weight:bold;
+	font-size:11px;
+	font-family:tahoma, verdana, sans-serif;
+	text-decoration:none;
+	line-height:21px;
+	color:#000 !important;
+	white-space:nowrap;
+	/* \*/
+	overflow:hidden;
+	/* */
+	/* background:url(/sbd/img/bg/buttons.gif) repeat-x 0px 0px */ }
+/* Set modified styles for small buttons */
+a.d02:link, a.d02:visited, a.d02.active, a.d02:hover, a.d04:link, a.d04:visited, a.d04.active, a.d04:hover, a.d06:link, a.d06:visited, a.d06.active, a.d06:hover {
+	margin:2px 5px;
+	padding:2px 5px;
+	line-height:19px !important;
+	white-space:nowrap;
+	font-size:10px }
+
+/* d01/d05 primary/promo - (Green)/Orange */
+a.d01:link, a.d01:visited, a.d05:link, a.d05:visited {
+	background-position:0 0; 
+	background-color:#FBEFC0}
+a.d01.active, a.d01:hover, a.d05.active, a.d05:hover {
+	background-position:0 -22px; 
+	background-color:#FFF9E0}
+
+/* d02/d06 primary/promo small - (Green)/Orange */
+a.d02:link, a.d02:visited, a.d06:link, a.d06:visited {
+	background-position:0 -44px; 
+	background-color:#FBEFC0}
+a.d02.active, a.d02:hover, a.d06.active, a.d06:hover {
+	background-position:0 -62px; 
+	background-color:#FFF9E0}
+
+/* d03 secondary - Grey*/
+a.d03:link, a.d03:visited {
+	background-position:0 -80px; 
+	background-color:#EBEBEB}
+a.d03.active, a.d03:hover {
+	background-position:0 -102px; 
+	background-color:#F5F5F5}
+
+/* d04 secondary small- Grey */
+a.d04:link, a.d04:visited {
+	background-position:0 -124px; 
+	background-color:#EBEBEB}
+a.d04.active, a.d04:hover {
+	background-position:0 -142px; 
+	background-color:#F5F5F5}

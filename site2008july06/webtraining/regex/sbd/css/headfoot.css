@@ -1,0 +1,352 @@
+/*  emergency messaging */
+#emsg {
+	width: 760px;
+	border-bottom: medium solid #999;
+	font-size: 10px;
+	line-height: 1.75;
+	text-align: center;
+	float:none;
+	}
+	
+#emsg, #emsg a:link, #emsg a:visited, #emsg a:hover { 
+	background: #fff;
+	color: #c00 
+	}
+
+/*  header */
+#headwrap, #logobar { 
+	display: block;
+	width:760px;
+	font-size:10px;
+	line-height:1;
+	background: #D8DC4D url(http://www.dallasdesigns.org/webtraining/regex/sbd/img/bg_head.gif) no-repeat;
+	color: #000
+	}
+/* interstitials */
+#logobar {
+	background: transparent url(http://www.dallasdesigns.org/webtraining/regex/sbd/img/bg_head_nw.gif) no-repeat;
+	border-bottom:4px solid #C00 
+	}
+
+#headwrap .note { color:#333 }	
+
+#hlogo, #hfcl, #hsearch, #hcart { display: block; overflow:hidden; } 
+#hlogo 		{ width: 346px }	
+#hfcl 		{ width: 414px }
+#hsearch 	{ width: 228px }
+#hcart 		{ width: 185px }
+
+/* #hlogo { background:#fc0; } */
+#hlogo h1, 
+#hlogo h1 a:link, #hlogo h1 a:visited, #hlogo h1 a:hover,
+#hlogo h2,
+#logobar a {
+	display: block; 
+	float: left;
+	margin: 0;
+	padding: 0;
+	}
+
+#hlogo h1, #logobar a { 
+	font-size: 10px; 
+	text-indent: -9999px; 
+	}
+
+#hlogo h1, #hlogo h1 a,
+#logobar a { width: 150px; height:81px }
+
+#hlogo h2, #hlogo h2 a { 
+	margin-top: 53px;
+	width: 196px;
+	font-size: 11px;
+	line-height:1.25;
+	overflow: hidden;
+	}
+#hlogo h2 a {
+	text-decoration:none;
+	color:#000
+	}
+
+#hlogo h2 b { display: none }
+	
+	
+
+/* #hfcl { background: #ffc } */	
+#hfcl { 
+	font-weight: bold;
+	line-height: 2;
+	text-align: right; 
+	}
+
+#hfcl ul { 
+	margin: 0 10px; 
+	padding: 0 
+	}
+
+#hfcl a { 
+	margin: 0 6px;
+	background: transparent;  
+	color: #000;
+	}
+ 
+#hsearch fieldset { 
+	margin: 0; 
+	border: 0; 
+	padding:0 0 1px 0;
+	}
+
+#hsearch legend { text-indent: -9999px }
+
+#hsearch label { font-size:11px }
+
+#hsearch input#searchkey { 
+	border: 1px solid #999;
+	width: 12em;
+	margin-right:.5em
+	}
+
+#hsearch a.d01 { 
+	margin: 0
+	}
+
+#hsearch .dotarrow.note { 
+	display: block; 
+	float: right;
+	width: 16.25em;
+	\width: 17.25em;
+	w\idth: 16.25em;
+	line-height: 1.5;
+	}
+		
+		
+		
+/* #hcart { background:#fc0 } */		
+#hcart, #hcart dl { float: right }
+
+#hcart dt, #hcart dt a, #hcart dd { 
+	display: block;
+	margin: 0; 
+	padding: 0; 
+	}
+
+#hcart dl { 
+	width:165px 
+	}
+
+#hcart dt { 
+	margin:6px 0 
+	}
+
+#hcart dt a {
+	border: 1px dotted #999;
+	border-width: 1px 0;
+	width: 161px;
+	line-height: 20px;
+	text-decoration: none !important; 
+	text-indent: 26px;
+	background: transparent url(http://www.dallasdesigns.org/webtraining/regex/sbd/img/new_nav_cart.gif) 6px 3px no-repeat;
+	color: #000 
+	}
+	
+#hcart dt a span { text-decoration: underline }
+
+#hcart dd {
+	float: left; 
+	display:block;
+	width: 49%
+	}
+
+#hcart dd.note { 
+	line-height: 1 
+	}
+
+#hcart dd.note b { 
+	text-transform: uppercase; 
+	background: inherit;
+	color: #c00; 
+	}
+
+#hcart dd.hcheckout { 
+	text-align: right 
+	}
+
+#hcart dd a { 
+	margin-right: 4px 
+	}
+
+/* tabs */
+#chead {
+	position: relative; 
+	clear:left;
+	display: block;
+	border-top: 2px #b20101 solid;
+	font-size: 10px;
+	width: 760px;
+	background: #b20101;
+	color: #fff;
+	}
+
+#skipnav {
+	position: absolute;
+	left: -999px;
+	width: 990px;
+	}
+	
+#chead table {
+	border-collapse: collapse;
+	border: 0; 
+	}
+
+#chead ul, 
+#chead ul * {
+	margin: 0;
+	padding: 0; 
+	font-size: 10px;
+	}
+
+#chead ul {
+	list-style-type: none; 
+	}
+	
+#chead li {
+	float: left; 
+	position: relative;
+	}
+	
+#chead li a:link, 
+#chead li a:visited,
+#chead li a:hover {
+	display: block;
+	padding: 0 10px 2px 10px; 
+	border-top: 1px #e37f7f solid;
+	border-right: 1px #830101 solid;
+	border-bottom: 1px #c00 solid;
+	border-left: 1px #e37f7f solid;
+	width: auto !important;				/* must have so other browsers stay flexible */
+	\width: 44px; 						/* just for IE, yay - we're resetting these as needed below... */
+	font-weight: bold;
+	line-height: 20px;
+	white-space: nowrap;
+	text-align: center;
+	text-decoration: none; 
+	background: #c00 url(http://www.dallasdesigns.org/webtraining/regex/sbd/img/bg_newtabs.gif) repeat-x bottom left;
+	color: #fff; 
+	}
+
+/* yeah, this is the IE resetting I mentioned above... */
+#chead li#prodnav a:link, #chead li#prodnav a:visited, #chead li#prodnav a:hover 			 { w\idth: 44px }
+#chead li#inknav a:link, #chead li#inknav a:visited, #chead li#inknav a:hover 				 { w\idth: 61px }
+#chead li#specnav a:link, #chead li#specnav a:visited, #chead li#specnav a:hover 			 { w\idth: 40px }
+#chead li#psvcsnav a:link, #chead li#psvcsnav a:visited, #chead li#psvcsnav a:hover			 { w\idth: 71px }
+#chead li#myacctnav a:link, #chead li#myacctnav a:visited, #chead li#myacctnav a:hover 		 { w\idth: 69px }
+#chead li#custservnav a:link, #chead li#custservnav a:visited, #chead li#custservnav a:hover { w\idth: 93px } 
+
+
+/* a:hover declarations for IE... w/ !important no-less... ============================= */
+#chead li.tabon a:hover,
+#chead li.tabon a {
+	border-bottom: 1px #fff solid !important;
+	background: #fff !important;
+	color: #c00 !important;
+}
+
+/* li:hover for everyone else ============================= */
+#chead li:hover a,
+#chead li a:hover { 
+	border-bottom: 1px #e5e5e5 solid;
+	background: #e5e5e5; 
+	color: #c00
+	}
+
+#chead li.tabon ul, #chead li.tabon table { 
+	visibility: hidden 
+	}
+
+/* dropdown styles ========================================= */
+#chead li ul { 
+	display:none 
+	}
+
+#chead li:hover ul, #chead li a:hover ul {
+	display: block; 
+	border: 1px solid #830101;
+	border-top: 0;
+	padding: 6px 4px;
+	width: 154px;
+	position: absolute; 
+	top: 24px; 
+	left: 0;
+	background: #e5e5e5;
+	color: #005EC2; 
+	}
+
+/* set up the list items */
+#chead li li { 
+	border-bottom: 1px dotted #B3B3B3  
+	}
+
+#chead li:hover li a, #chead li a:hover li a {
+	display: block; 
+	border: 0;
+	padding: 1px 2px;
+	\width: 154px !important;
+	w\idth: 150px !important; 
+	text-align: left;	
+	line-height: 15px;
+	height: auto;
+	white-space: normal;
+	font-size: 11px !important;
+	font-weight: normal;
+	background: #e5e5e5;
+	color: #005EC2; 
+	}
+	
+#chead li:hover ul a:hover, #chead li a:hover li a:hover { 
+	background-color: #f7f7f7; 
+	color: #005EC2; 
+	}
+
+#hpmsg {
+	float: right;
+	width: auto;
+	padding: 0 12px;
+	font-weight: bold;
+	line-height: 23px;
+	}
+#hpmsg, #hpmsg a {
+	white-space: nowrap;
+	background: transparent;
+	color: #fff; 
+	}
+	
+/* footer */
+.cfoot {width:756px}
+.c01#foot1, .c01#foot2 {margin:0; width:189px}
+.cfoot a:link, .cfoot a:visited, .cfoot a:hover {color:#000; text-decoration:underline}
+.cfoot .b122 {
+	\width:189px;
+	\height:127px; 	
+	w\idth:185px;
+	he\ight:125px; 	
+	}
+#foot3 .b122 {width:181px}
+
+#subfooter {padding-top:35px; text-align:center; width:760px; clear:left;}
+#subfooter .b001 {background:transparent; border:0}
+#subfooter p.note, #subfooter p.note a {color:#fff}
+#subfooter hr {display:none}
+#subfooter a#sitemap {text-decoration:none}
+
+/* link urls from screen - only show on print */
+#subfooter span {display:none}
+#intl {font-weight:bold}
+
+/* For Safari, as he gets z-index confused on homepage - 062707, yup, this still holds true */
+#prodnav ul, #inknav ul, #specnav ul, #psvcsnav ul, #myacctnav ul, #custservnav ul {z-index:500}
+
+/* interstitials */
+/* logobar & logobar a integrated w/ standard header styles - headerbar and footerbar are dead */ 
+
+/* hidden messaging */
+.print h5, #oldbrowsers {display:none}
+.print#lastdiv {margin-right:-3px}

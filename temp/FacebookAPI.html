@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>dallasdesigns</title>
+</head>
+
+<body>
+<h1>Dallas Designs Facebook page</h1>
+<p>Login Button:<br />
+<fb:login-button autologoutlink="true"></fb:login-button></p>
+<p>Like button:<br />
+<fb:like></fb:like></p>
+<p>Live Stream:<br />
+<fb:live-stream event_app_id="255955255198"></fb:live-stream></p>
+<p>Comments:<br />
+<fb:comments></fb:comments></p>
+
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({appId: '128036273883634', status: true, cookie: true,
+             xfbml: true
+	});
+	FB.api('/me/posts', { limit: 3 }, function(response) {
+	  for (var i=0, l=response.length; i<l; i++) {
+		var post = response[i];
+		if (post.message) {
+		  alert('Message: ' + post.message);
+		} else if (post.attachment && post.attachment.name) {
+		  alert('Attachment: ' + post.attachment.name);
+		}
+	  }
+	});  
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+  
+</script>
+</body>
+</html>

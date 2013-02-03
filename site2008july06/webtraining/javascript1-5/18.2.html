@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Controlling Styles with JavaScript</title>
+<script language="JavaScript" type="text/javascript">
+function changehead() {
+	i = document.form1.heading.selectedIndex;
+	headcolor = document.form1.heading.options[i].value;
+	document.getElementById("head1").style.color = headcolor;
+}
+function changebody() {
+	i = document.form1.body.selectedIndex;
+	doccolor = document.form1.body.options[i].value;
+	document.getElementById("p1").style.color = doccolor;
+}
+</script>
+</head>
+
+<body>
+<h1 id="head1">Controlling Styles with JavaScript</h1>
+<hr>
+<p ID="p1">Select the color for paragraphs and headings using the form below. The colors you specified will be dynamically changed in this document. The change occurs as soon as you change the value of either of the drop-down lists in the form.</p>
+<form name="form1">
+<b>Heading color: </b>
+<select name="heading" onChange="changehead();">
+	<option value="black">Black</option>
+	<option value="red">Red</option>
+	<option value="blue">Blue</option>
+	<option value="green">Green</option>
+	<option value="yellow">Yellow</option>
+</select>
+<br>
+<b>Body text color: </b>
+<select name="body" onChange="changebody();">
+	<option value="black">Black</option>
+	<option value="red">Red</option>
+	<option value="blue">Blue</option>
+	<option value="green">Green</option>
+	<option value="yellow">Yellow</option>
+</select>
+</form>
+</body>
+</html>

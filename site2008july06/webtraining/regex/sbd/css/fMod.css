@@ -1,0 +1,278 @@
+/* table of price data */
+.mathtable td, .mathtable .error, .mathtable .light, .mathtable .note {
+	text-align:right;
+	vertical-align:top;
+	float:none}
+.mathtable td {
+/*	white-space:nowrap; */
+	padding:6px 4px 6px 6px;
+	margin:0;
+	border:0}
+.mathtable .subtotal td, .mathtable .total td {font-weight:bold}
+.mathtable .total td, .mathtable .subline td {border-top:1px dotted #ccc}
+.mathtable .error, .mathtable .note, .mathtable .important {font-size:10px}
+.mathtable .error, .mathtable a.error:link, .mathtable a.error:visited, .mathtable a.error:hover,
+.mathtable .error a:link, .mathtable .error a:visited, .mathtable .error a:hover {color:#c00}
+.mathtable .note, .mathtable a.note:link, .mathtable a.note:visited, .mathtable a.note:hover,
+.mathtable .note a:link, .mathtable .note a:visited, .mathtable .note a:hover {color:#999}
+.mathtable td b, .mathtable td.zeroprice {font-size:12px; color:#c00}
+.mathtable td.zeroprice, .mathtable td.realprice {width:85px}
+.mathtable td.zeroprice, .mathtable td.zeroprice b {color:#000}
+.p06 table.mathtable, .b201 .w03 table.mathtable {width:185px}
+
+/* for coupon qualification error presentation - removed styles from properties */
+.mathtable .error dd { margin:0 }
+
+/* formerly in main.css as a root p style - necessary for text fields */
+.f01, .f015, .f016, .f02 p, .f05 p {clear:both}
+
+.f01, .f015, .f016, .f02, .f05 { padding:6px }
+
+/* 1 column wide */
+.f01 {
+	\width: 181px;
+	w\idth: 169px}
+
+/* 1.5 columns wide */
+.f015 { 
+	\width:274px;
+	w\idth:262px
+	}
+	
+.f016 { 
+	\width:275px;
+	w\idth:263px
+	}
+ 
+/* 2-column form */
+.f02 {
+	\width:370px;
+	w\idth:358px
+	}
+	
+/* this seems unnecessary */
+/*.f02 .plainlabel {width:169px; display:block; float:left; clear:none}*/
+.f02 .groupindent {padding:0 0 10px 185px}
+.f02 .address {padding:0 0 6px 0}
+.f02 .address p {padding:0 0 2px 0}
+.b101 .f02, .b201 .f02, .b301 .f02, .b401 .f02, .b501 .f02, .b501 .f02, .b1101 .f02 {
+	padding:6px 6px 24px 6px;
+	/* \*/
+	padding:6px;
+	/* */}
+	
+.f02 ul.dotlist { clear:both; }
+
+/* tabular forms and data (deprecated) */
+.f04 .col1 {width:181px}
+.f04 .col2 {width:370px}
+.f04 .col3 {width:559px}
+.f04 .col4 {width:748px}
+.f04 th ul {margin-bottom:0}
+
+/* row colors */
+.f04 tr.even , .f04 tr.even td {background:#EEEEEE}							/* light gray */
+
+/* table headers*/
+.b101 .f04 tr.thead {background:#AEAEAE}				/* dark gray */
+.b201 .f04 tr.thead {background:#FFCC00}				/* dark gold */
+.b301 .f04 tr.thead {background:#C7CD00; color:#000}	/* dark green */
+.b401 .f04 tr.thead, .b411 .f04 tr.thead {background:#2C8AED}				/* medium blue */
+.b401 .f04 tr.thead2, .b401 .f04 tr.thead2 th {background:#005EC2}				/* seasonal blue */
+.b501 .f04 tr.thead {background:#8B2EBB}				/* dark purple */
+.b601 .f04 tr.thead {background:#0093A3}				/* dark teal */
+.b1101 .f04 tr.thead {background:#B12D81}				/* dark plum */
+.b1201 .f04 tr.thead {background:#1C871C}				/* dark green */
+.f04 tr.thead, .f04 tr.thead a:link, .f04 tr.thead a:visited, .f04 tr.thead a:hover, 
+.f04 tr.thead2, .f04 tr.thead2 a:link, .f04 tr.thead2 a:visited, .f04 tr.thead2 a:hover {color:#FFF}
+.b201 .f04 tr.thead, .b201 .f04 tr.thead a:link, .b201 .f04 tr.thead a:visited, .b201 .f04 tr.thead a:hover,
+.b301 .f04 tr.thead, .b301 .f04 tr.thead a:link, .b301 .f04 tr.thead a:visited, .b301 .f04 tr.thead a:hover {color:#000}
+
+.f04 tr.theadsub h4 { font-weight:normal }
+	
+/* 3-column form */
+.f05 {
+	\width:559px;
+	w\idth:547px
+	}
+	
+.f05 .note, .f05 .action {width:170px; float:right}
+.f05 .text1, .f05 .text5, .f05 .select1, .f05 .select2, .f05 .select3 {float:left; margin:0 8px 0 0}
+.f05 .area1, .f05 .area2 {float:left; margin:0 8px 8px 0}
+.f05 p.label, .f05 ul {margin-bottom:10px}
+.f05 .groupindent {
+	padding:0 0 20px 176px;
+	/* \*/
+	padding:0 0 0 176px;
+	/* */}
+.f05 .groupindent .note {width:340px; float:left}
+.f05 .note {margin:0 0 4px 0}
+.f05 .guide {width:185px; float:left}
+.f05 .textlabel5, .f05 .selectlabel5 {
+	padding-left:30px;
+	\width:176px;
+	w\idth:146px
+	}
+	
+.f05 .textlabel5 b, .f05 .selectlabel5 b {color:#C00}
+.f05 .checklabel3, .f05 .radiolabel5 {font-weight:normal; float:left}
+.f05 .checklabel3 {width:520px}
+.f05 .radiolabel5 {width:156px; margin:3px 0 10px 0; padding:0}
+.f05 .radiolabel5 b {display:block; clear:left}
+.f05 .radiogroup {
+	width:185px;
+	margin:0 0 10px 0;
+	padding:0 0 10px 0;
+	/* \*/
+	padding:0;
+	margin:0 0 6px 0;
+	/* */
+	float:left}
+.f05 .checkboxgroup {
+	margin:0 0 24px 0;
+	/* \*/
+	margin:0;
+	/* */}
+
+/* 5.4 ... jammed in w/ the rewards number bug, related how? breaks in IE5.2mac*/
+.f05 .groupindent.billship { 
+	padding-left:156px;
+	white-space:nowrap !important
+	}
+.f05 .groupindent.billship .checklabel { font-weight:bold !important}
+
+/* qobin */
+.f08 {
+	padding:0;
+	margin:0;
+	width:559px}
+.f08 img, .f08 table {float:left}
+.f08 img {
+	margin:6px 0;
+	width:185px;
+	height:185px}
+.f08 table {margin:0 0 0 12px; width:172px}
+.f08 th, .f08 td {padding:4px 0}
+.f08 label span.note {display:block; clear:left}
+.f08 p {padding-bottom:10px; margin-bottom:10px}
+
+/* request swatch */
+.f10 {
+	padding:0 6px 0 6px;
+	\width:370px;
+	w\idth:358px
+	}
+	
+.f10 .form {width:181px}
+.f10 .form p {margin:8px 0 0 0; padding:0}
+.f10 .story {
+	font-size: 10px;
+	color: #666;
+	padding: 86px 0 0 8px;
+	background: url(/sbd/img/gr169-swatchchair.gif) no-repeat 8px 8px;
+	\width: 177px;
+	w\idth: 169px 
+	}
+	
+.f11 .fabric, .f11 .metal, .f11 .wood {
+	text-indent: 181px;
+	line-height: 40px;
+	width: 348px;
+	margin: 0 0 8px 6px;
+	height: 40px }
+.f11 .fabric { background: url(/sbd/img/res/ctg/gr169-swatchfabric.gif) no-repeat }
+.f11 .metal { background: url(/sbd/img/res/ctg/gr169-swatchmetal.gif) no-repeat }
+.f11 .wood { background: url(/sbd/img/res/ctg/gr169-swatchwood.gif) no-repeat }
+
+/* swatch list */
+.f13 {width:748px; padding:0}
+.f13 .summary {width:532px; padding:0}
+.f13 .page {float:right; width:185px; padding:0}
+.f13 .bottom, .f13 .top {
+	padding:4px;
+	\width:748px;
+	w\idth:740px
+	}
+	
+.f13 .top, .f13 .top a:link, .f13 .top a:visited, .f13 .top a:hover,
+.f13 .bottom, .f13 .bottom a:link, .f13 .bottom a:visited, .f13 .bottom a:hover {background:#005EC2; color:#fff}
+.f13 .bottom, .f13 .page {text-align:right}
+.f13 .page {float:right; padding:0}
+.f13 .head {padding:0; margin:0; background:#2C8AED; border-top:10px solid #2C8AED}
+.f13 .head .tabs {font-weight:bold; width:563px}
+.f13 .head .tabs ul {
+	float:none;
+	display:inline;
+	list-style:none;
+	line-height:30px;
+	margin:0;
+	padding:8px}
+.f13 .head .tabs ul li {display:inline; padding:18px}
+.f13 .head .tabs ul li.selected {background:#FFF; padding:10px 8px 20px 8px}
+.f13 .tabs a:link, .f13 .tabs a:visited, .f13 .tabs a:hover {color:#fff}
+.f13 .head .lhead {
+	background:#90C5FE;
+	padding:0;
+	width:185px;
+	float:right;
+	text-align:left;
+	text-indent:8px;
+	line-height:30px}
+.f13 .bucket {width:555px}
+.f13 .bucket .filter {width:539px; margin:8px 0 8px 6px}
+.f13 .bucket .sample {width:181px}
+.f13 .bucket .sample .image {
+	float:left;
+	text-align:center;
+	font-size:10px;
+	padding:0 0 14px 6px;
+	width:62px}
+.f13 .bucket .sample .image img {
+	margin:0;
+	height:60px;
+	width:60px;
+	border:1px solid #CCC}
+.f13 .bucket .sample .image a {
+	padding:3px 0 0 0;
+	display:block;
+	clear:left}
+.f13 .bucket .sample .desc {width:109px; padding:1px 0 14px 0}
+.f13 .bucket .sample .desc .color, .f13 .bucket .sample .note {
+	width:101px;
+	float:left;
+	clear:left;
+	padding:0 0 0 8px}
+.f13 .bucket .sample .desc .button {padding:6px 0 12px 2px}
+.f13 .list {
+	float:right;
+	padding:0 8px 4px 8px;
+	color:#000;
+	background:#D5E9FF;
+	\width:185px;
+	w\idth:169px
+	}
+	
+.f13 .list ol, .f13 .list .button {margin:0; padding:0}
+.f13 .list p {margin:0; padding:6px 0; clear:left}
+.f13 .list h4 { clear:left }
+.f13 .list .note {clear:left}
+.f13 .list li {clear:left; margin:0 0 16px 24px}
+.f13 .list .button {float:right; clear:right; display:inline}
+.f13 .list .button .d03 {margin-right:0}
+
+/* request catalog */
+.f14 {
+	margin:0;
+	padding:6px;
+	float:left;
+	clear:none;
+	\width:181px;
+	w\idth:169px
+	}
+	
+.f14 img {width:169px; padding:0 0 6px 0}
+.f14 .check, .f14 .label, .f14 .qty {float:left; clear:none}
+.f14 .check {width:20px}
+.f14 .text {width:169px}
+.f14 .label {width:149px}
+.f14 .qty {width:149px; padding:0 0 0 20px}

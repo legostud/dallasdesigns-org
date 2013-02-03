@@ -1,0 +1,613 @@
+img.std, img.thb { border:1px solid #ccc }
+img.std { height:182px; width:182px }
+img.thb { height:62px; width:62px }
+
+/* new improved math story for all */
+
+/* just for IE */
+.pricenew, .pricenew .poutter, .pricenew .poutter .pinner { float:none } 
+
+/* for p02/sku rows */
+.p02 td.pricenew { width:110px !important } 
+
+#sresults .p02 th.delivery, #sresults .p02 td.delivery { display:none !important }
+
+/* for most other product modules */
+div.pricenew { 
+	float:right;
+	width:101px
+}
+
+.pricenew .poutter, .pricenew .pinner { padding:2px }
+.pricenew .poutter { 
+	border:2px solid #fff; 
+	font-size:10px;
+	line-height:1.125;
+	background:#fff;
+	color:#000
+	}
+
+/* for unspecial skurow1 */	
+tr.highlight td.pricenew, tr.highlight td.pricenew .poutter { 
+	border-color:#e3e680; 
+	background-color:#e3e680;
+	}
+
+/* for unspecial skurow1 out of stock */
+tr.oos td.pricenew, tr.oos td.pricenew .poutter { 
+	border-color:#ddd; 
+	background-color:#ddd
+	}
+
+/* if it's special, add the specon modifier class */
+.p06 .pricenew .poutter,
+.pricenew.specon .poutter { 
+	border-color:#FFF440 !important;
+	background-color:#fff !important
+	}
+	
+.p06 .pricenew .pinner,
+.pricenew.specon .pinner { background:#FFF999 url(/sbd/img/bg/bg_priceburst.gif) top right no-repeat !important }
+
+.pricenew dl.comp dd { padding-bottom:1em; line-height:1.2 }
+
+/* basic styles for all */
+.pricenew dl { padding:.25em 0 }
+.pricenew dd { margin-bottom:0 }
+.pricenew li { margin-top:0; padding-top:0 }
+
+/* mathstory section specific */
+.pricenew dl.theprice { padding-top:0 }
+.p02 .pricenew dl.theprice dd { text-align:right } /* sku rows only... */
+.p06 .pricenew dl.theprice dd { text-align:right } /* sku rows only... */
+.pricenew dl.theprice dd.pis { font-size:13px }
+.pricenew dl.theprice dd { color:#666 }
+
+.pricenew dl.b4 ul, .pricenew dl.b4 li { 
+	margin-bottom:0; 
+	padding-bottom:0;
+	margin-right:0; 
+	padding-right:0
+	}
+
+.pricenew dl.theprice dt, .pricenew dl.bmsm dt, .pricenew dl.pr0m0 dt { 
+	text-indent:-9999px;
+	height:0; 
+	line-height:0
+	}
+		
+.pricenew.specon dl.fp { background:#FFF999 url(/sbd/img/bg/bg_pricespeccheck.gif) }
+
+dd.flag { 
+	font-weight:bold; 
+	color:#666 
+	}
+	
+dd.flag img { 
+	float:left; 
+	margin:0 4px 4px 0 ;
+	height:16px;
+	width:16px;
+	border:0;
+	border-right:1px solid #999 !important;
+	padding-right:4px;
+	}
+	
+.pricenew dl.pr0m0 dd { clear:left}	
+.pricenew dd.flag {padding-bottom:5px}	
+.pricenew.specon dl.pr0m0, .pricenew.specon dl.comp { background:#FFF999 url(/sbd/img/bg/bg_pricespecrow.gif) }	
+.pricenew .button, .p01 .pricenew .d06 a { display:block; margin:8px 0 0 0 }
+td.pricenew a.note { float:right } /* just for remove item in itemrow 2 - may need a specific class */
+
+/* main product module basics */
+.p01, .p03, .p04, .p21 {
+	padding:6px;
+	\width:181px;
+	w\idth:169px}
+.p01 img, .p02 td.pic img, .p03 img, .p04 img, .p09 img, .p11 img, .p21 img, .p31 img {
+	border:1px solid #CCC;
+	float:left;
+	width:60px;
+	height:60px}
+.p21 img {margin:0 0 0 52px; float:none; clear:both}
+.b002 .p01 img, .b002 .p09 img, .b002 .p11 img, .b002 .p31 img,
+.b102 .p01 img, .b102 .p09 img, .b102 .p11 img, 
+.b201 .p01 img, .b201 .p09 img, .b201 .p11 img, .b201 .p31 img, .b201 .p02 td.pic img, 
+.b213 .p01 img,
+.b222 .p01 img {border-color:#FFCC00}
+.b005 .p01 img, .b005 .p09 img, .b005 .p11 img, .b005 .p31 img {border-color:#8B2EBB}
+.b006 .p01 img, .b006 .p09 img, .b006 .p11 img, .b006 .p31 img {border-color:#0093A3}
+.p01 h4, .p09 h4 {
+	margin-bottom:6px;
+	height:40px;
+	width:169px;
+	padding:0;
+	/* \*/
+	overflow:hidden;
+	/* */
+	font-weight:normal}
+.b222 .p01 h4 {font-weight:bold}
+.p01 ul.bullets, .p05 ul.bullets {
+	clear:both;
+	padding:6px 0 0 8px;
+	margin:6px 0 6px 8px}
+.p01 .button {padding:8px 0 0 0; margin:0}
+
+.p03 h4, .p03 img {margin-bottom:8px}
+.p03 img {border:0}
+.p03 .button {margin:0 0 8px 0}
+.p03 .s01, .p03 .desc, .p03 .note {
+	\width:89px;
+	/* \*/
+	w\idth:99px;
+	/* */
+	}
+.p03 .s01, .p03 .desc {
+	margin:0;
+	/* \*/
+	margin:0 0 0 8px;
+	/* */
+	padding:0
+	}
+
+.p04 li {font-size:10px}
+
+/* sku row */
+table.p02 {width:100%}
+.p02 td {padding:8px 6px}
+.p02 th {font-weight:normal}
+.p02 th b {display:block}
+.p02 .thead th, .p02 .thead2 th {
+	padding-top:14px;
+	vertical-align:bottom}
+.p02 .tfoot th, .p02 .tfoot2 th {
+	padding-bottom:14px;
+	vertical-align:top}
+.p02 th a:link, .p02 th a:visited, .p02 th a:hover {margin:0}
+.b004 .p02 .thead th {padding-top:18px}
+.p02 th.add {background:url(/sbd/img/bg/bg_skurowhead.gif) no-repeat 50% -13px; text-align:center}
+.p02 .tfoot th.add, .p02 .tfoot2 th.add {background-position:50% -83px}
+.p02 th.nothanks {text-align:right}
+.p02 th.selected {background:url(/sbd/img/bg/bg_skurowheadtab.gif) no-repeat 0 -10px} /* shows 95px wide */
+.p02 .tfoot th.selected, .p02 .tfoot2 th.selected {background-position:0 -50px}
+.p02 th.compare {background:url(/sbd/img/bg/bg_skurowcheckhead.gif) no-repeat top left; padding-left:0}
+.p02 .tfoot th.compare {background-position:bottom left}
+.b001 .p02 .tfoot th {border-top:1px dotted #ccc}
+.b201 .p02 th {background-color:#FFE066}		/* med gold */
+.b301 .p02 th {background-color:#DDE166}		/* med green */
+.b401 .p02 th {background-color:#2C8AED}		/* med blue */
+.b411 .p02 th {background-color:#005EC2}		/* dark blue */
+.b501 .p02 th {background-color:#A947DC}		/* med purple */
+.b401 .p02 .thead2 th, .b401 .p02 .tfoot2 th {background-color:#005EC2} /* dark blue wrapper gets proper dark blue header */
+.b401 .p02 th.selected, .b501 .p02 th.selected {color:#000}
+.b401 .p02 th, .b401 .p02 th.sort a:link, .b401 .p02 th.sort a:visited, .b401 .p02 th.sort a:hover,
+.b501 .p02 th, .b501 .p02 th.sort a:link, .b501 .p02 th.sort a:visited, .b501 .p02 th.sort a:hover {color:#fff}
+
+.p02 .tbody {background:#fff}
+.p02 .tbody td {border-top:1px dotted #ccc}
+.p02 tr#first td, .p02 .tfirst td {border-top:0}
+.p02 tr.oos {background:#ddd}
+.p02 tr.highlight {background:#E3E680}
+.p02 td.oos b, .p02 td.oos i, .p02 td.oos .important {display:block; text-align:center; width:100%}
+.p02 td.checkbox {background:#fff url(/sbd/img/bg/bg_skurowcheck.gif) repeat-y 50%; padding:6px 0; text-align:center}
+.p02 td.checkbox span { display:block; height:0; width:0; overflow:hidden; visibility:hidden}
+
+.p02 td.pic, .p02 td.pic p.short, .p02 td.selecttocompare, .p02 td.delivery, .p02 td.size {font-size:10px}
+.p02 td.details, .p02 td.status {width:75px}
+.p02 td.qty, .p02 th.qty {background:#fff url(/sbd/img/bg/bg_skurow.gif) repeat-y 50%; width:110px}
+td.pic, .p02 td.size, .p02 td.iconpic {
+	width:88px
+	}
+.p02 td.checkbox {width:25px}
+.p02 td.delivery, .p02 td.pricenew, .p02 td.required, .p02 td.required div,
+.p02 .qty, .p02 .qty2 {
+	width:117px;
+	/* \*/
+	width:95px;
+	/* */
+	}
+.p02 .qty2 .button, .p02 .qty2 .important, .p02 .qty .button, .p02 .bundle,
+.p02 .delivery .light, .p02 .delivery .important {width:95px}
+.p02 .delivery a, .p02 .delivery i {clear:both; display:block}
+.p02 .qty .available, .p02 .qty2 .available, .p02 .qty3 {width:89px}
+.p02 .qty, .p02 .qty .button, .p02 .bundle, .p02 .qty .available,
+.p02 .qty2, .p02 .qty2 .button, .p02 .qty2 .available, .p02 .qty2 .important {text-align:center}
+.p02 td.delivery {width:106px}
+.p02 td.iconpic {padding:6px 0 6px 20px}
+.p02 td.swatch {width:50px; font-size:10px}
+.p02 .swatch img {display:block; margin:5px 0 0 0; width:45px; height:45px}
+.p02 div.item, .p02 div.model, .p02 div.coupon, .p02 div.note, .p02 div.rec,
+.p02 div.important, .p02 .delivery a, .p02 .delivery i {clear:both}
+.p02 div.item, .p02 div.model { display:block; width:100% }
+.p02 .required a {display:block; clear:both; padding-bottom:8px}
+.p02 div.button, .p02 .qty .available, .p02 .qty2 .available, .p02 div.important,
+.p02 div.rec, .p02 div.seemore, .p02 .delivery i {margin-top:8px}
+.p02 div.button {margin-bottom:8px} 
+.p02 .bundle {padding-bottom:4px}
+.p02 .tbody td.needed, .p02 .tfirst td.needed {font-weight:bold}
+.p02 .tbody td.needed b, .p02 .tfirst td.needed b {color:#c00}
+.p02 .name .coupon, .p02 .name .note {display:block; clear:both; width:100%}
+.p02 .details .button a {margin:0}
+
+.p02 .tstripe th, .p02 .tstripe2 th {
+	vertical-align:middle;
+	white-space:nowrap;
+	padding-top:4px;
+	color:#fff;
+	font-weight:bold}
+
+.b201 .p02 .tstripe th {background-color:#FC0; color:#000}		/* gold */
+.b401 .p02 .tstripe th {background-color:#005EC2}	/* dark blue */
+.b401 .p02 .tstripe2 th {background-color:#2C8AED}	/* med blue */
+.b411 .p02 .tstripe th {background-color:#2C8AED}	/* med blue */
+.b501 .p02 .tstripe th {background-color:#8B2EBB}	/* dark purple */
+.b511 .p02 .tstripe th {background-color:#A947DC}	/* med purple */
+.p02 th.top a:link, .p02 th.top a:visited, .p02 th.top a:hover {
+	font-weight:normal;
+	font-size:11px;
+	color:#fff;
+	white-space:nowrap;
+	padding:0 10px 0 10px;
+	float:right;
+	background:url(/sbd/img/ico/uparrowwhite.gif) no-repeat 0 5px}
+.b004 .p02 tr.stripe1 th, .b004 .p02 tr.stripe2 th,
+.b004 .p02 tr.tstripe1 th, .b004 .p02 tr.tstripe2 th {color:#fff; font-weight:bold}
+.b004 .p02 .tfoot th, .b004 .p02 .tfoot2 th {border-top:1px dotted #ccc}
+.b004 .p02 tr.tstripe2 {background:#2C8AED}	/* light blue */
+.b004 .p02 tr.tstripe1 {background:#005EC2}	/* dark blue */
+.b004 .p02 tr.tstripe2 th.qty,
+.b401 .p02 tr.tstripe2 th.qty,
+.b411 .p02 tr.tstripe1 th.qty {background:#2C8AED url(/sbd/img/bg/bgb418.gif) repeat-y 50%}
+.b004 .p02 tr.tstripe1 th.qty,
+.b401 .p02 tr.tstripe1 th.qty {background:#005EC2 url(/sbd/img/bg/bgb408.gif) repeat-y 50%}
+.p02 .highlight td {padding-bottom:10px; background:#E3E680 url(/sbd/img/bg/whitebottom.gif) repeat-x 0% 100%}
+.p02 .highlight td.qty {background:#E3E680 url(/sbd/img/bg/bgb318.gif) repeat-y 50% 100%}
+.p02 .name ul {margin-bottom:0}
+.p02 .info ul {list-style:none; margin:0; padding:0 0 8px 0}
+.p02 .info li {
+	float:left;
+	padding:0 8px 0 0;
+	line-height:16px;
+	font-size:10px;
+	font-weight:bold; 
+	margin-bottom:4px}
+.p02 .info li img {vertical-align:middle; margin:0 4px 2px 0}
+.p02 .info ul.note {padding:0 0 8px 20px}
+.p02 .info .note li {display:block; float:none; font-weight:normal; line-height:14px }
+
+/* promo row stuff **********************************************************************************/
+.p02 tr.promorowon td.pricenew, 
+.p02 tr.promorowon td.select1,
+.p02 tr.promorow.yeller { background:transparent url(/sbd/img/bg/bg_bundlerow.gif) repeat-x bottom left !important } 
+
+/* modifying existing === should I just yank the existing? */
+.p02 td.qty, .p02 th.qty, .pricenew { background-color:transparent }
+
+/* kill the background image */
+.p02 .highlight td.pricenew { 
+	padding-bottom:10px; 
+	background-color:#E3E680
+	} 
+
+.p02 tr.promorow.yeller td.qty, .p02 tr.promorow.yeller th.qty { 
+	background:transparent url(/sbd/img/bg/bg_bundlerowadd.gif) no-repeat 50% bottom; 
+	width:110px
+	}
+	
+.p02 tr.yeller td.pic img {border-color:#FFCC00}
+
+
+/* start -------------------------search ui - 5.8 */
+
+.p02.sgrid { width:100% }
+.p02.sgrid th,
+.p02.sgrid td { 
+	width:33%;
+	border-right:2px solid #005ec2
+	}
+
+.p02.sgrid tr.pic th, 
+.p02.sgrid tr.pic td img { 
+	height:180px;
+	width:180px;
+	}
+	
+.p02.sgrid tr.pic th, 
+.p02.sgrid tr.pic td { 
+	padding:2px;
+	border-top:2px solid #005ec2 
+	}
+
+.p02.sgrid tbody.sfirst tr.pic th, 
+.p02.sgrid tbody.sfirst tr.pic td { border-top:0 }
+	
+/* written for accessibility, hidden for design */
+.p02.sgrid th { 
+	position:absolute;
+	top:0;
+	left:-9999px  
+	}
+.p02.sgrid .button { float:right }
+
+.p02.sgrid label.checklabel { width:auto }
+
+
+.p02.sgrid tr.sqty td { padding:6px }
+.p02.sgrid tr.sqty td .button {margin:0}
+
+.p02 a.addtofavs {
+	display:block;
+	clear:both;
+	line-height:18px;
+	}
+
+.p02 ul.bullets, 
+.p02 div.item, 
+.p02 div.model, 
+.p02.sgrid .scompare,
+.p02 a.addtofavs {
+	font-size:10px !important
+	}
+
+.p02.sgrid td.pricenew .poutter { width:164px }
+
+/* END -------------------------search ui - 5.8 */
+	
+	
+.p05 {
+	padding:6px;
+	\width:370px;
+	w\idth:358px
+	}
+	
+.p05 h4 {
+	height:40px;
+	margin-bottom:6px;
+	/* \*/
+	overflow:hidden;
+	/* */
+	font-weight:normal}
+.p05 img {
+	border:1px solid #CCC;
+	width:180px;
+	height:180px;
+	float:left}
+.p05 div.pricenew {margin:0 0 0 6px; width:164px}
+.p05 .button, .p05 ul.math {display:block; clear:both}
+.b201 .p05 img, .b102 .p05 img {border-color:#FC0}
+
+/* p06 =====================================================================================*/
+.c03 .p06 .s01 { width:190px }									
+.c04 .p06 .s01 { width:379px }									
+.p06 .s02 {
+	width:359px; 
+	float:right 
+	}
+
+.p06 .pdbox { 
+	margin-bottom:8px;
+	border-top:2px solid #c00;
+	padding:8px;
+	background-color:#ffc; 
+	}
+	
+.p06 .pdleft, .p06 .pdleft h1 img,
+.p06 dl.prod, .p06 dl.prod dd,
+.p06 ul.promofreebies,
+ul.promofreebies li, ul.promofreebies li img 	{ float:left }	
+.p06 dl.prod { width:182px}
+.p06 .pdleft 						{ width:256px }
+.p06 .pdleft h1 { 
+	line-height:27px;
+	color:#c00 
+	}
+	
+.p06 .pdleft h1 img { margin-right:8px }
+.p06 .s01 p.mmsg { margin:8px 0 0 0 }
+.c04 .p06 .s01 p.note { padding:0 8px }
+
+
+.p06 dl.prod { padding:0 8px }
+.p06 dl.prod dd { margin-top:-2px }
+
+.p06 ul.promofreebies { width:173px; clear:right }
+.p02 ul.promofreebies { width:379px } 
+ul.promofreebies li img { margin-right:8px }
+ul.promofreebies li {
+	padding:0 0 8px 0;
+	width:173px;
+	}
+.p02 ul.promofreebies li { 
+	margin-right:8px;
+	width:181px; 
+	}	
+.p06 dl.compw dd { margin:0 }
+
+
+/* simplified using the <ul class="inline"></ul> */
+.p06 ul.itemrow {} 														
+/* not messing w/ other sku-ish pages... */
+.p06 div.color {margin:0 5px 5px 0; width:90px}
+.p06 .color .colorname, .p06 .color .colorimage {display:block; clear:both}
+.p06 table.ink {margin:5px 0 0 0; border-bottom:1px solid #CCC}
+.p06 table.ink th, .p06 table.ink td {margin:0; border-top:1px solid #CCC}
+.p06 table.ink th {padding:4px 4px 4px 0;	font-weight:bold}
+.p06 table.ink td {padding:4px 0 4px 4px}
+
+.p07 img {
+	border:1px solid #CCC;
+	float:left;
+	height:185px;
+	width:185px}
+.p07 .desc {
+	padding:0 0 4px 8px;
+	\width:365px;
+	w\idth:357px}
+
+.p09 {
+	padding:6px;
+	\width:275px;
+	w\idth:263px
+	}
+	
+.p09 h4 {width:259px; height:26px}
+.p09 .pricenew {
+	margin:0 0 0 6px;
+	w\idth:189px
+	}
+	
+.p09 .pricenew .button {float:none}
+
+/* modified p09 for gbb **********************************************************************************/
+.gbb .p09, .gbb .p09 h4 { width:auto }
+.gbb .p09 { padding:6px }
+.gbb .p09 h4 { height:26px }
+.gbb .p09 .pricenew { width:162px }
+
+/* on lookupresults2 */
+.p09.inkdrop .pricenew h4 { 
+	margin-bottom:6px;
+	height:40px;
+	width:169px;
+	}	
+	
+/* all lifted from p02 */
+/* - could ditch the SPOT class and just add to the p09 defs since it currently doesn't do "info"? */
+.p09.inkdrop ul.info { 
+	list-style:none; 
+	margin:0; 
+	padding:8px 0
+	}
+.p09.inkdrop ul.info li {
+	display:block;
+	float:left;
+	padding:0 8px 0 0;
+	line-height:16px;
+	font-size:10px;
+	font-weight:bold;
+	white-space:nowrap; 
+	margin-bottom:4px
+	}
+	
+/* only height and width are unique from the p02 defs */
+.p09.inkdrop ul.info li img { 
+	vertical-align:middle; 
+	margin:0 4px 2px 0; 
+	height:16px; 
+	width:16px 
+	}
+
+
+/* large image popup */
+.p10 {
+	padding:6px;
+	\width:559px;
+	w\idth:547px
+	}
+	
+.p10 .s01 {
+	padding:8px;
+	\width:181px;
+	w\idth:165px
+	}
+	
+.p10 p {font-size:10px}
+.p10 .s01 a {border:solid 2px #FFF; margin:0 8px 8px 0; display:block; float:left}
+.p10 .s01 a.selected {border:solid 2px #C7CD00; margin:0 8px 8px 0}
+.p10 .s01 img {border:1px solid #CCC; height:60px; width:60px}
+.p10 .s02 {
+	padding:2px 0;
+	\width:362px;
+	w\idth:360px
+	}
+	
+.p10 .s02 img {border:1px solid #CCC}
+
+/* 2-col image (left) and text */
+.p11 {
+	padding:6px;
+	\width:370px;
+	w\idth:358px
+	}
+	
+.p11 img.plain {border:none}
+.p11 a {display:block; clear:both}
+.p11 a.inline {display:inline; clear:none}
+.p11 .desc {margin:0 0 0 6px; width:284px}
+
+/* p12, p13 deprecated */
+	
+/* 3 column product */
+.p31 {
+	padding:0 6px;
+	\width:559px;
+	w\idth:547px
+	}
+	
+.p31 .image {width:70px; margin:6px 0}
+.p31 .desc {width:477px; padding:4px 0; margin:6px 0}
+.p31 h4 {font-weight:normal; margin-bottom:8px}
+.p31 .button {
+	width:185px; 
+	text-align:right; 
+	float:right;
+	padding:0 12px 0 0; 
+	/* \*/ padding:0; /* */
+	margin:0}
+
+/* non-sku info */
+table.p99 {width:748px}
+.p99 .thead th {white-space:nowrap; color:#fff; padding:4px}
+.b411 .p99 .thead th {background:#2C8AED}
+.b401 .p99 .thead th {background:#005EC2}
+.b1001 .p99 .thead th {background:#996633}
+.p99 .tbody, .p99 .tfirst, .p99 .todd, .p99 .teven {padding:4px}
+.p99 .tbody td {border-top:1px dotted #ccc}
+.p99 .tfirst td, .p99 .teven td, .p99 .todd td {border:0}
+.b411 .p99 .teven td {background:#D5E9FF}
+.b1001 .p99 .teven td {background:#FFFFCC}
+.p99 .pic {width:76px}
+.p99 .status {width:80px}
+.p99 td.pricenew b {font-size:12px; color:#c00}
+.p99 td.delivery, .p99 td.delivery p, .p99 td.delivery a:link, .p99 td.delivery a:visited, .p99 td.delivery a:hover,
+.p99 .pic {font-size:10px}
+
+	
+
+/* bundleheaders **********************************************************************************/
+/* common */
+.bundlehead .b001 { 
+	background:transparent url(/sbd/img/bg/bg_bheadfade.gif) repeat-x bottom left; 
+	border-bottom:2px solid #c00 
+	}
+	
+.bundlehead h1 { font-size:250% }
+.bundlehead .note { color:#000 }
+.bundlehead .binfo, .bundlehead .bimg { display:block }
+
+.bundlehead .bimg img { 
+	float:left;
+	border:1px solid #fc0; 
+	margin-left:30px
+	}
+	
+/* v0 only/default */
+.bundlehead .binfo { width:100% }
+
+/* v1 - 1 lg image */
+.bundlehead#bid1 .binfo { width:520px }
+.bundlehead#bid1 .bimg { width:216px }
+
+/* v2 - 2 lg images */		
+.bundlehead#bid2 .binfo { width:306px } 
+.bundlehead#bid2 .bimg { width:430px }
+
+/* v3 - 1 lg image and 2 thb images */
+.bundlehead#bid3 .binfo { width:402px } 
+.bundlehead#bid3 .bimg { width:334px }
+.bundlehead#bid3 img.thb#thb1 { margin-bottom:58px }
+
+/* v4 - 4 thb images*/
+.bundlehead#bid4 .binfo { width:522px } 
+.bundlehead#bid4 .bimg { width:214px }
+.bundlehead#bid4 img.thb#thb1, .bundlehead#bid4 img.thb#thb2 { margin-bottom:30px }

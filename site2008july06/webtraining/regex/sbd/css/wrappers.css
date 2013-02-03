@@ -1,0 +1,412 @@
+/* ///////////////////////////////////////////////////////////////////////////////////
+A WRAPPERS - header bar styles
+Usage:	<h4 class="a000">
+			Header Text
+		</h4> 
+/////////////////////////////////////////////////////////////////////////////////// */
+
+.a000, .a001, .a002, .a003, .a004, .a005, .a006, .a007, .a017, .a008, .a009, .a0001, .a0101, .a0201,
+.a100, .a110, .a120, .a122,
+.a200, .a210, .a220, .a222,
+.a300, .a310, .a320, .a322,
+.a400, .a409, .a410, .a420, .a422,
+.a500, .a509, .a510, .a520, .a522,
+.a600, .a610, .a620, .a622,
+.a700, .a710,
+.a800,
+.a900,
+.a1000,
+.a1100, .a1110, .a1120,	.a1122,
+.a1200, 
+.a1300, .a1310, .a1320, .a1322 {
+	clear:both;
+	float:none;
+	margin:0;
+	border:0;
+	padding:3px 8px;
+	font-weight:bold;
+	font-size:13px;
+	line-height:15px;
+	background:#FFF;
+	color:#000}
+.a000 b {color:#C00}
+
+/* Gray */
+.a001 {color:#AEAEAE}
+.a100 {background:#AEAEAE; color:#FFF}
+.a110 {background:#C9C9C9}
+.a120, .a122 {background:#E5E5E5}
+.a122 {border-color:#E5E5E5}
+
+/* Gold */
+.a002 {color:#FC0}
+.a200 {background:#FC0}
+.a210 {background:#FFE066}
+.a220, .a222 {background:#FFC}
+.a222 {border-color:#FFC}
+
+/* Green */
+.a003 {color:#C7CD00}
+.a300 {background:#C7CD00}
+.a310 {background:#DDE166}
+.a320, .a322 {background:#E3E680}
+.a322 {border-color:#E3E680}
+
+/* Blue */
+.a004 {color:#005EC2}
+.a400, .a409 {background:#005EC2; color:#FFF}
+/* just for NEW information tools 
+.c01.itool .a400 { 
+	border-top:1px solid #c00; 
+	background:#005DC3 url(/sbd/img/ico/itlogo_sm.gif) no-repeat 95%  
+	} */
+.a410 {background:#2C8AED; color:#FFF}
+.a410 a {font-weight:normal}
+.a420, .a422 {background:#D5E9FF}
+.a422 {border-color:#D5E9FF}
+
+/* Purple */
+.a005 {color:#8B2EBB}
+.a500, .a509 {background:#8B2EBB; color:#FFF}
+.a510 {background:#A947DC; color:#FFF}
+.a520, .a522 {background:#F4DFFF}
+.a522 {border-color:#F4DFFF}
+
+/* Teal */
+.a006 {color:#0093A3}
+.a600 {background:#0093A3; color:#FFF}
+.a610 {background:#15B5C8; color:#FFF}
+.a620, .a622 {background:#BBEDF3}
+.a622 {border-color:#BBEDF3}
+
+/* Error/Alert/Seasonal1/Seasonl2/UPS */
+.a007 {color:#C00}
+.a700 {background:#C00 url(/sbd/img/bg/a700.gif) no-repeat; padding-left:25px; color:#FFF}
+.a017 {color:#FE9600}
+.a710 {background:#FE9600 url(/sbd/img/bg/a710.gif) no-repeat; padding-left:25px; color:#FFF}
+
+.a008 {color:#FC0}					/* #005EC2 */
+.a800 {background:#FC0}				/* #005EC2 #FFF */
+.a009 {color:#FC0}					/* #E3E680 */
+.a900 {background:#FC0}				/* #E3E680 */
+
+.a0001 {color:#963}
+.a1000 {background:#963; color:#FFF}
+
+/* Plum */
+.a0101 {color:#B12D81}
+.a1100 {background:#B12D81; color:#FFF}
+.a1110 {background:#D66CC0; color:#FFF}
+.a1120, .a1122 {background:#FFDEF4}
+.a1122 {border-color:#FFDEF4}
+
+/* dark green - other */
+.a0201 {color:#1C871C}
+.a1200 {background:#1C871C; color:#FFF}
+
+/* light Green */
+.a1303 {color:#6FAB04}
+.a1300 {background:#6FAB04; color:#FFF}
+.a1310 {background:#A9CD68; color:#FFF}
+.a1320, .a1322 {background:#D4E6B4}
+.a1322 {border-color:#D4E6B4}
+
+/* messaging headers */
+.a122, .a222, .a322, .a422, .a522, .a622, .a1122 {font-weight:normal}
+
+/* Links */
+.a410 a:link, .a410 a:visited, .a410 a:active, .a410 a:hover,
+.a500 a:link, .a500 a:visited, .a500 a:active, .a500 a:hover,
+.a509 a:link, .a509 a:visited, .a509 a:active, .a509 a:hover,
+.a510 a:link, .a510 a:visited, .a510 a:active, .a510 a:hover,
+.a610 a:link, .a610 a:visited, .a610 a:active, .a610 a:hover,
+.a710 a:link, .a710 a:visited, .a710 a:active, .a710 a:hover,
+.a800 a:link, .a800 a:visited, .a800 a:active, .a800 a:hover,
+.a810 a:link, .a810 a:visited, .a810 a:active, .a810 a:hover,
+.a1300 a:link, .a1300 a:visited, .a1300 a:active, .a1300 a:hover {color:#FFF}
+
+#centeralley {text-align:center}
+
+/* old n20 - back to top link, now in an h4 */
+h4.btt a  { 
+	float:right;
+	margin-top:-16px;
+	font-size:10px;
+	font-weight:normal
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////
+B WRAPPERS - color wrappers for modules
+Usage:	<div class="b001">
+			<div class="w01">
+				<p>Paragraph text</p>
+			</div>
+		</div> 
+//////////////////////////////////////////////////////////////////////////////////// */
+
+.b000, .b001, .b002, .b003, .b004, .b005, .b006, .b007, .b017, .b008, .b009, .b0001, .b0101, .b0201,
+.b101, .b102, .b103, .b104, .b111, .b112, .b113, .b115, .b121, .b122,
+.b201, .b202, .b203, .b204, .b211, .b212, .b213, .b215, .b221, .b222,
+.b301, .b302, .b303, .b304, .b311, .b312, .b313, .b315, .b321, .b322, .b324,
+.b401, .b402, .b403, .b404, .b411, .b412, .b413, .b415, .b421, .b422, .b434,
+.b501, .b502, .b503, .b504, .b511, .b512, .b513, .b515, .b521, .b522,
+.b601, .b602, .b603, .b604, .b611, .b612, .b613, .b615, .b621, .b622,
+.b701, .b702, .b703, .b704, .b711, .b712, .b713, .b715, .b721, .b722,
+.b921, .b922, 
+.b1001,
+.b1101, .b1112, .b1122,
+.b1201, .b1212, .b1222,
+.b1301, .b1302, .b1303, .b1304, .b1311, .b1312, .b1313, .b1315, .b1321, .b1322 {
+	margin:0;
+	border:2px solid #FFF;
+	padding:0;
+	border-top:0 !important;
+	background:#FFF;
+	color:#000}
+
+/* Color Fills - no borders borders, just color ending in 0  - typically used around tables */
+/* Check code and redefine b300, b400 */
+/* Gray */
+.b100 {background:#AEAEAE}
+.b110 {background:#C9C9C9}
+.b120 {background:#E5E5E5}
+
+/* Gold */
+.b200 {background:#FC0}
+.b210 {background:#FFE066}
+.b220 {background:#FFC}
+
+/* Green */
+.b300 {background:#C7CD00; border-color:#C7CD00}
+.b310 {background:#DDE166}
+.b320 {background:#E3E680}
+
+/* Blue */
+.b400 {background:#005EC2; border-color:#005EC2}
+.b410 {background:#2C8AED}
+.b420 {background:#D5E9FF}
+
+/* Purple */
+.b500 {background:#8B2EBB}
+.b510 {background:#A947DC}
+.b520 {background:#F4DFFF}
+
+/* Teal */
+.b600 {background:#0093A3}
+.b610 {background:#15B5C8}
+.b620 {background:#BBEDF3}
+
+/* Error/Alert/Seasonal1/Seasonl2/UPS1/UPS2 */
+.b700 {background:#C00}
+.b710 {background:#FE9600}
+.b800 {background:#FFC}		/* #005EC2 */
+.b920 {background:#FFC}		/* #E3E680 */
+.b1000 {background:#963}
+.b1020 {background:#FFC}
+
+/* Plum */
+.b1100 {background:#B12D81}
+.b1110 {background:#D66CC0}
+.b1120 {background:#67AF67}
+
+/* light green */
+.b1300 {background:#6FAB04}
+.b1310 {background:#A9CD68}
+.b1320 {background:#D4E6B4}
+
+/* Colored borders - No fill (ends in 1) //////////////////////////////////////////////////////////////////////////////////// */
+/* Gray */
+.b101 {border-color:#AEAEAE}
+.b111 {border-color:#C9C9C9}
+.b121 {border-color:#E5E5E5}
+
+/* Gold */
+.b201 {border-color:#FC0}
+.b211 {border-color:#FFE066}
+.b221 {border-color:#FFC}
+
+/* Green */
+.b301 {border-color:#C7CD00}
+.b311 {border-color:#DDE166}
+.b321 {border-color:#E3E680}
+
+/* Blue */
+.b401 {border-color:#005EC2}
+.b411 {border-color:#2C8AED}
+.b421 {border-color:#D5E9FF}
+
+/* Purple */
+.b501 {border-color:#8b2ebb}
+.b511 {border-color:#A947DC}
+.b521 {border-color:#F4DFFF}
+
+/* Teal */
+.b601 {border-color:#0093A3}
+.b611 {border-color:#15B5C8}
+.b621 {border-color:#BBEDF3}
+
+/* Error/Alert/Seasonal1/Seasonal2/UPS */
+.b701 {border-color:#C00}
+.b711 {border-color:#FE9600}
+.b801 {border-color:#FC0}		/* #005EC2 */
+.b921 {border-color:#FC0}		/* #E3E680 */
+.b1001 {border-color:#963}
+
+/* Plum */
+.b1101 {border-color:#B12D81}
+.b1111 {border-color:#D66CC0}
+.b1121 {border-color:#67AF67}
+
+/* dark green - other */
+.b1201 {border-color:#1C871C}
+
+/* light green */
+.b1301 {border-color:#6FAB04}
+.b1311 {border-color:#A9CD68}
+.b1321 {border-color:#D4E6B4}
+
+/* Colored borders and fill (ends in 2) //////////////////////////////////////////////////////////////////////////////////// */
+/* Gray */
+.b102 {border-color:#AEAEAE; background:#AEAEAE}
+.b112 {border-color:#C9C9C9; background:#C9C9C9}
+.b122 {border-color:#e5e5e5; background:#e5e5e5}
+
+/* Gold */
+.b202 {border-color:#FC0; background:#FC0}
+.b212 {border-color:#FFE066; background:#FFE066}
+.b222 {border-color:#FFC; background:#FFC}
+
+/* Green */
+.b302 {border-color:#C7CD00; background:#C7CD00}
+.b312 {border-color:#DDE166; background:#DDE166}
+.b322 {border-color:#E3E680; background:#E3E680}
+
+/* Blue */
+.b402 {border-color:#005EC2; background:#005EC2}
+.b412 {border-color:#2C8AED; background:#2C8AED}
+.b422 {border-color:#D5E9FF; background:#D5E9FF}
+
+/* search UI - 5.8 */
+
+/* .g01#sfilters { padding-top:24px }								 to line up the header bars */
+.g03#sresults { float:right }									/* so we display the results the right, but write them to the screen first */
+#sfilters .a400 { width:173px; line-height:21px; height:21px  } /* to connect the header bars */
+#sfilters .b422, #sfilters .b412 { 
+	border:0; 
+	padding:2px 
+	}
+#sfilters .b422 { background: url(/sbd/img/bg/bg-1diag.gif) }
+#sfilters .b412 { background: url(/sbd/img/bg/bg-2diag.gif) }
+
+
+/* Purple */
+.b502 {border-color:#8b2ebb; background:#8b2ebb}
+.b512 {border-color:#A947DC; background:#A947DC}
+.b522 {border-color:#F4DFFF; background:#F4DFFF}
+
+/* Teal */
+.b602 {border-color:#0093A3; background:#0093A3}
+.b612 {border-color:#15B5C8; background:#15B5C8}
+.b622 {border-color:#BBEDF3; background:#BBEDF3}
+
+/* Error/Alert/Seasonal1/Seasonl2/UPS1 */
+.b702 {border-color:#C00; background:#C00}
+.b712 {border-color:#FE9600; background:#FE9600}
+.b822 {border-color:#FC0; background:#FC0}			/* #005EC2 */
+.b922 {border-color:#FC0; background:#FC0}			/* #E3E680 */
+.b1002 {border-color:#963; background:#963}
+
+/* Plum */
+.b1102 {border-color:#B12D81; background:#B12D81}
+.b1112 {border-color:#D66CC0; background:#D66CC0}
+.b1122 {border-color:#FFDEF4; background:#FFDEF4}
+
+/* Green - other */
+.b1212 {border-color:#1C871C; background:#1C871C}
+.b1222 {border-color:#B4D7B4; background:#B4D7B4}
+
+/* light green */
+.b1302 {border-color:#6FAB04; background:#6FAB04}
+.b1312 {border-color:#A9CD68; background:#A9CD68}
+.b1322 {border-color:#D4E6B4; background:#D4E6B4}
+
+/* UNCOMMON VARIANTS BELOW*/
+/* Colored borders, no bottom border, white fill (ends in 3) //////////////////////////////////////////////////////////////////////////////////// */
+.b213 {border-color:#FFE066}									/* med gold */
+.b303 {border-color:#C7CD00}									/* dk green */
+.b403 {border-color:#005EC2}									/* dk blue */
+.b513 {border-color:#A947DC}									/* med purple */
+.b213, .b303, .b403, .b513 {border-bottom:0 !important}
+
+/* Colored borders w/ fill, no bottom border (ends in 4) */
+.b204 {background:#FC0; border-color:#FC0}
+.b304 {background:#C7CD00; border-color:#C7CD00}
+.b324 {background:#E3E680; border-color:#E3E680}
+.b424 {background:#D5E9FF; border-color:#D5E9FF}
+.b434 {background:#D5E9FF; border-color:#005EC2}
+.b204, .b304, .b324 {border-bottom:0 !important}
+
+/* No borders, image fill (ends in 30) */
+.b330, .b430 {margin:0; border:0; padding:0 2px}
+.b330 {background:url(/sbd/img/bg/b330.gif) repeat-x}
+.b430 {background:url(/sbd/img/bg/b430.gif) repeat-x}
+
+/* white text */
+.b400, .b410, .b510, .b512, .b1112, .b1212, .b1302, .b1312 {color:#FFF}
+
+/* spot */
+.b1302 a:link, .b1302 a:visited, .b1302 a:active, .b1302 a:hover {color:#FFF}
+
+
+/* wrappers used for action buttons, special sizes for IE5.2 =========== */
+.d11, .d21, .d31, .d41 {
+	width:159px;
+	/* \*/
+	width:169px;
+	/* */
+	padding:10px 6px}
+
+/* 1.5 columns ==========================================================*/
+.d115 {
+	width: 253px;
+	/* \*/
+	width: 263px;
+	/* */
+	padding: 10px 6px}	
+
+.d116 {
+	width: 254px;
+	/* \*/
+	width: 264px;
+	/* */
+	padding: 10px 6px}	
+/* END 1.5 columns =======================================================*/
+	
+.d12, .d22, .d32, .d42 {
+	width:348px;
+	/* \*/
+	width:358px;
+	/* */
+	padding:10px 6px}
+
+.d13, .d23, .d33, .d43 {
+	width:537px;
+	/* \*/
+	width:547px;
+	/* */
+	padding:10px 6px}
+
+.d14, .d24, .d34, .d44 {
+	width:726px;
+	/* \*/
+	width:736px;
+	/* */
+	padding:10px 6px}
+
+.d31, .d32, .d33, .d34,
+.d41, .d42, .d43, .d44 {padding-bottom:40px}
+
+.d115, .d116,
+.d21, .d22, .d23, .d24,
+.d41, .d42, .d43, .d44 {text-align:right}

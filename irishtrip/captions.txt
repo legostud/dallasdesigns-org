@@ -1,0 +1,3377 @@
+<?php
+
+$data=array (
+  'update' => '',
+  101 => 
+  array (
+    'cap' => 'Vira in Valetta Blennerhassett\'s home in Gortatlea, County Kerry.  Vira, Edna and I were invited to tea, coffee, cakes and scones.  The wedding picture on the wall is of her daughter, Vera.  Interesting candle holders are attached to each side of the piano to help one see better when reading the music.   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  102 => 
+  array (
+    'cap' => 'Valetta and Tommy Blennerhassett have a beautiful home and grounds.  He recently passed away. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  103 => 
+  array (
+    'cap' => 'This is Ballyseedy Castle.  The Castle and graveyard once belonged to a Blennerhassett family, which line is now ended as the last two sisters never married.  It was purchased by Bart Conor (or O\'Conor) of Boston, Mass.  He made it into an up-scale hotel. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  104 => 
+  array (
+    'cap' => 'Vira, beside the Ballyseedy Church of Ireland, Anglican.  It was not open when we were there.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  105 => 
+  array (
+    'cap' => 'Vira, standing in the Ballyseedy Church graveyard in front of Tommy Blennerhassett\'s grave.  He was Valetta\'s husband.  There is another Tommy Blennerhassett, but he is alive all the time.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  106 => 
+  array (
+    'cap' => 'Looking down from my bedroom window at the cows waiting in the circular yard to be milked.  They know the order in which to enter.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  107 => 
+  array (
+    'cap' => 'Arthur West going into the circular yard where the cows will be milked.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  108 => 
+  array (
+    'cap' => 'This is the entrance to land Arthur West leases out to a horse-riding school.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  109 => 
+  array (
+    'cap' => 'Vira sweeps her arm out to show miles of beautiful countryside.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  110 => 
+  array (
+    'cap' => 'Looking down from a high, narrow side road.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  111 => 
+  array (
+    'cap' => 'A Celtic cross in a graveyard near Tralee.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  112 => 
+  array (
+    'cap' => 'A Celtic cross in a graveyard near Tralee.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  113 => 
+  array (
+    'cap' => '113
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+    'del' => 'del',
+  ),
+  114 => 
+  array (
+    'cap' => 'Murphy\'s Bar in Tralee, County Kerry. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  115 => 
+  array (
+    'cap' => 'The street and highway signs in Ireland are in both English and Irish.
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  116 => 
+  array (
+    'cap' => 'These girls from St. Mary\'s School on Moyderwell Street are standing outside the Tralee Library waiting for their bus to pick them up.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  117 => 
+  array (
+    'cap' => 'Vira, Angie Henderson, and Jessie at the Tralee Library.  Edna drove us there and picked us up later. Angie had taken photos of some Blennerhassett graves for Vira to bring back to Debbie Johnson.  Debbie knew Angie through e-mails.
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  118 => 
+  array (
+    'cap' => 'Vira Cogswell, Vivien Blennerhassett and Jessie Mueller, enjoying a hot cup of coffee on a delightful Irish afternoon.  The English Spaniels\' names are Jessie and Judy.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  119 => 
+  array (
+    'cap' => 'Vivien Blennerhassett and Edna West take time for a coffee break.  Vivien is married to Valetta\'s son, Alan.  They live across the highway from the Wests and have built a home on his parent\'s land.  Viv takes care of 60 cows and Alan has a haulage company.  They took over these companies when Tommy Blennerhassett retired.  Tommy passed away only a month before we arrived.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  120 => 
+  array (
+    'cap' => 'Athur and Edna West in front of their home in Gortatlea, enjoying tea and Jessie\'s recipe for chocolate cake called, "Wacky Cake"!
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  121 => 
+  array (
+    'cap' => 'The Donkey is now protected in Ireland. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  122 => 
+  array (
+    'cap' => 'Vira shows us some blackberries at the house in Flemby where our Mother was born.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  123 => 
+  array (
+    'cap' => 'Vira and Jessie in front of the house in Flemby which was passed on to tall Arthur.  He passed away a few years ago.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  124 => 
+  array (
+    'cap' => 'There is no longer a thatched roof on the cottage where our mother, Louise (West) Quigley, was born.  She lived there until she was almost eighteen when she and her mother, Avice Ellen (Murphy) West, came to the U.S. Louise\'s father and one brother, James Alfred West, stayed in Ireland and worked the farm.  James married Annie Poff and their son, tall Arthur West inherited it.  He built a new house beside it, so the old place has been unoccupied for years, hence the weeds and wild blackberry bushes.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  125 => 
+  array (
+    'cap' => 'Hester Hill had beautiful purple and lavender Passion flowers in bloom in her yard.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  126 => 
+  array (
+    'cap' => 'This is a photo of the the new road in Flemby.  It comes down from where tall Arthur West lived and Hester Hill lives, and where Mother was born and lived. Straight ahead is the new Tralee to Killarney Highway.  To get to Edna and short Arthur West\'s house, you would take a right onto the highway heading South, and their dairy farm is about a half mile to a mile down on the left. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  127 => 
+  array (
+    'cap' => 'Same as previous photo.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+    'del' => 'del',
+  ),
+  201 => 
+  array (
+    'cap' => 'This is Jessie, standing by the huge fireplace mantel in the lobby\'s side room in the Great Southern Hotel in Killarney.  We had a welcoming drink here. There are Waterford crystal chandeliers in the lobby, too.
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  202 => 
+  array (
+    'cap' => 'A view of one staircase in the Great Southern Hotel in Killarney.  At the top of this stairway was a beautiful arrangement of fresh flowers and a Waterford crystal chandelier above.  We had large, hot breakfasts here and everything was elegant.  Our Chef had 4 diplomas from various countries in Europe.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  203 => 
+  array (
+    'cap' => 'Vira and Jessie along "The Ring of Kerry" in Southwestern County Kerry along the Atlantic coastline.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  204 => 
+  array (
+    'cap' => 'Closeup of a rock wall on the Ring of Kerry, built without mortar.  These types of stone walls are all over Ireland.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  205 => 
+  array (
+    'cap' => 'This very old statue was near the fellow with his donkeys. You can see our tour buss in the background.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  206 => 
+  array (
+    'cap' => 'This restaurant in Cahirciveen on the Ring of Kerry has a beautiful thatched roof. Vira stands in front for a picture.  The food was excellent. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  207 => 
+  array (
+    'cap' => 'Jessie and Vira with a fellow who was beside the road with his donkey and the donkey\'s baby.  He was at one of the stops on our tour around the Ring of Kerry. Vira enjoyed talking with him and asked for a photo.  She gave him a tip and he gave her some sprigs of Heather from his donkey\'s basket.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  208 => 
+  array (
+    'cap' => 'The Great Southern Hotel in Killarney was very impressive. There was a tray in our room with the fixings for Bewley\'s tea and Bewley\'s coffee.  We also had an iron, an ironing board, a hair drier and heated towel racks in the bathroom. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  209 => 
+  array (
+    'cap' => 'Vira and the doorman of The Great Southern Hotel in Killarney, County Kerry.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  210 => 
+  array (
+    'cap' => 'There were jaunting cart rides from the Great Southern Hotel which the CIE Tour had set up for our group, but, due to a light rain, we decided not to go.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  211 => 
+  array (
+    'cap' => 'Part of the Muckross House gardens.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  212 => 
+  array (
+    'cap' => 'Muckross House, Killarney. We toured through this grand old house and saw beautifully decorated rooms, carved furniture, fixtures and stairs.  This is another view of the gardens at the back of the house.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  213 => 
+  array (
+    'cap' => 'Muckross House, Killarney, County Kerry.  Queen Victoria was a guest here.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  214 => 
+  array (
+    'cap' => 'Vira in front of the "Maid of Erin" restaurant in Listowel where we had lunch.  The Shepherds\' Pie was Jessie\'s first and very good.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  215 => 
+  array (
+    'cap' => 'Jessie on the Kilimer to Tarbert Ferry across the River Shannon.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  216 => 
+  array (
+    'cap' => 'Vira and Jessie at the Cliffs of Moher.  We walked up to this round tower.  Very windy.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  217 => 
+  array (
+    'cap' => 'At the Clifs of Moher, it was a long windy walk up to the tower.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  218 => 
+  array (
+    'cap' => 'The Cliffs of Moher. Windy, but beautiful.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  219 => 
+  array (
+    'cap' => 'Jessie and Vira on a very windy day at the Cliffs of Moher.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  220 => 
+  array (
+    'cap' => 'The Cliffs of Moher.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  221 => 
+  array (
+    'cap' => 'Some of the entertainers at Knappogue Castle in Quinn, County Clare.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  222 => 
+  array (
+    'cap' => 'They staged a mini-play at Knappogue Castle. We sat at long tables.  The "King & Queen" sat at the head table.  We had a choice of drinks, Mead, wine and tea, and salad, fish, potato, turnip and carrots mixed, (another vegetable), and dessert.  Delicious
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  223 => 
+  array (
+    'cap' => 'The entertainers at Knappogue Castle had lovely voices.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+    'del' => 'del',
+  ),
+  224 => 
+  array (
+    'cap' => 'Inside, we were offered a drink of Mead which is made of fermented honey and apples, while we enjoyed the harp and violin music of the young ladies.  The music was good and so was the Mead! 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  225 => 
+  array (
+    'cap' => 'The entrance to Knappogue Castle. This is another one of the ladies that greeted and entertained us.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  226 => 
+  array (
+    'cap' => 'Vira Cogswell at the entrance of Knappogue Castle with the "butler", who played host, and one of the ladies who sang. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  227 => 
+  array (
+    'cap' => 'The first night of our CIE Tour, we went to Knappogue Castle in Quinn, County Clare. It is a medieval castle. A soft mist was coming down.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  301 => 
+  array (
+    'cap' => 'Edna West at her home in Gortatlea, County Kerry.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  302 => 
+  array (
+    'cap' => 'A view of Edna and Arthur West\'s farmhouse, taken by the highway at the top of their ahane, (or driveway).  It is on the Tralee to Killarney Highway.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  303 => 
+  array (
+    'cap' => 'Edna and Arthur West at home in Gortatlea, County Kerry.  They were lovely and gracious to us and treated us like their own.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  304 => 
+  array (
+    'cap' => 'Jessie, James O\'Quigley, and his wife, Ruth, at the entrance to the "James O\'Quigley Unisex Hair Salon" in Tralee.  James recently retired and sold the salon to an employee, Frances.  The salon is on the second floor.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  305 => 
+  array (
+    'cap' => 'Vira, holding an umbrella, after getting her hair done at the "James O\'Quigley Unisex Hair Salon" in Tralee, County Kerry. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  306 => 
+  array (
+    'cap' => 'Mrs. Olive Halpin, James O\'Quigley\'s sister, did Jessie\'s hair and the new owner of the salon, Frances, did Vira\'s hair.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  307 => 
+  array (
+    'cap' => 'Mrs. Olive (O\'Quigley) Halpin, doing Jessie\'s hair.  Not a good shot!
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+    'del' => 'del',
+  ),
+  308 => 
+  array (
+    'cap' => 'Hydrangeas by Edna and Arthur\'s front walkway in Gortatlea, County Kerry. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  309 => 
+  array (
+    'cap' => 'Arthur & Edna West of Gortatlea with Vira Cogswell.  They met us at the Kerry Airport in Farenfore, County Kerry and it was so good to see them.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  310 => 
+  array (
+    'cap' => 'We flew from Dublin to Kerry Airport on an Aer Arann airplane.  It was very comfortable and the stewardesses were lovely.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  311 => 
+  array (
+    'cap' => 'Our CIE Tour group enjoyed supper and a show at a tavern in Howth, County Dublin.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+    'del' => 'del',
+  ),
+  312 => 
+  array (
+    'cap' => '312Accidental shot!
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+    'del' => 'del',
+  ),
+  313 => 
+  array (
+    'cap' => 'This statue in the Port of Cobh in County Cork is of Annie and her two brothers, who were the first to embark on the journey to America.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  314 => 
+  array (
+    'cap' => 'Vira, at a museum in the Port of Cobh in County Cork.  She is pointing to a Cunard Line poster showing a steamship like the SS Andania, which brought our Mother and Grandmother from Cobh to Boston in 1914.  Cobh was previously named Queenstown until Ireland won their independence from Great Britain.   Mother\'s name was Louisa Marguerita West and she was almost 18 when she came over with her Mother, Avice Ellen (Murphy) West.  She changed the spelling to Louise Marguerite in America. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  315 => 
+  array (
+    'cap' => 'Vira in front of the Blarney Woollen Mills, which is a huge store. (In Ireland, Woollen is spelled with two ll\'s).
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  316 => 
+  array (
+    'cap' => 'A close-up of hydrangeas at Blarney Castle in County Cork.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  317 => 
+  array (
+    'cap' => 'Blarney Castle.  You can see the opening at the top center area, where people sit, lean over backwards and "kiss the blarney stone"!  Jessie threw a kiss up to it.  Vira kissed it in 1983.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  318 => 
+  array (
+    'cap' => 'The Blarney Castle round tower.  There are many round towers in Ireland.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  319 => 
+  array (
+    'cap' => 'Blarney Castle in County Cork.   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  320 => 
+  array (
+    'cap' => 'Looking up at Blarney Castle.  Another view of the top center area where people kiss the blarney stone.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  321 => 
+  array (
+    'cap' => 'Blarney Castle in County Cork.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  322 => 
+  array (
+    'cap' => '322Accidental shot!
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+    'del' => 'del',
+  ),
+  323 => 
+  array (
+    'cap' => 'A view of Blarney Castle in County Cork.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  324 => 
+  array (
+    'cap' => 'Blarney Castle in County Cork.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+    'del' => 'del',
+  ),
+  325 => 
+  array (
+    'cap' => 'There are beautiful hydrangeas along the walkway to Blarney Castle in County Cork.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  326 => 
+  array (
+    'cap' => 'Going through the gate at Blarney Castle grounds.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+    'del' => 'del',
+  ),
+  327 => 
+  array (
+    'cap' => 'On our CIE Tour, we entered onto the Blarney Castle grounds through a gate, to a view of georgeous flowers.
+The Blarney Castle grounds are in County Cork.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  401 => 
+  array (
+    'cap' => 'Vanessa West at home in Gortatlea.  Very pretty with her hair in an updo.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  402 => 
+  array (
+    'cap' => 'Arthur West with his trusty tractor returning from feeding the mash to his 2 year old "dry" cows. They are separated in another field from the milking cows.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  403 => 
+  array (
+    'cap' => 'Brown-eyed Susans grow along the side of the circular milking shed at the back of Arthur & Edna West\'s home in Gortatlea.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  404 => 
+  array (
+    'cap' => 'A view of the end of Arthur and Edna West\'s home.  It looks like there used to be a hayloft above the garage.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  405 => 
+  array (
+    'cap' => 'Edna West\'s Nasturtium and Carnation plants at the back of her home in Gortatlea.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  406 => 
+  array (
+    'cap' => 'Vira Cogswell, Hester Hill and Jessie Mueller at Trevor & Rhona Giles\' home in Tralee.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  407 => 
+  array (
+    'cap' => 'Vira Cogswell, Rhona (Blennerhassett) Giles and Jessie Mueller in Rhona\'s backyard in Tralee.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  408 => 
+  array (
+    'cap' => 'Jessie & Hester Hill of Flemby, shown here, and Vira and Mary O\'Sullivan had a lovely lunch at this restaurant situated next to the Tralee to Killarney Highway.  Hester drove us that day, and when we returned to her home, Edna & Arthur were there looking for us.  Vira\'s son, Mike, had phoned with the sad news that our brother, John  Quigley, had just passed away.  We flew home the next day and Vira stayed in Beverly to attend his services with the rest of the family.  
+  ',
+  ),
+  409 => 
+  array (
+    'cap' => 'When tall Arthur stopped cutting the turf by hand with a slane, he paid the man who owns this Lilliput Machine to do the cutting for him.  His equipment could cut peat out of the bog much faster.  Arthur still had to turn each piece over by hand for drying, but many times, Edna & Arthur\'s son, Trevor, would help him.
+  
+  
+  
+  
+  
+  ',
+  ),
+  410 => 
+  array (
+    'cap' => 'Arthur West and Vira Cogswell in the bog at the top of the mountain, where tall Arthur West and our mother and her family cut the peat.  Vira is holding some Heather that grows wild in abundance in Ireland. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  411 => 
+  array (
+    'cap' => 'Amanda (West) Tarrant, visiting her Mom & Dad.  She and her husband, James, live in Clash Cross, Tralee.  She took us sight-seeing.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  412 => 
+  array (
+    'cap' => 'Arthur West\'s 30 cows in one of the fields on his 60 acre farm. He also has 27 or more dry cows, (2 year olds), in another field. The fields are fenced in by wooden fences that have electric wire strung from post to post.  The cows can smell when the current is turned on.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  413 => 
+  array (
+    'cap' => 'Jessie Mueller pretending to cut peat with a \'slane\' at a Museum Village that Vanessa took us to see on the way back from Rossbeigh Strand.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  414 => 
+  array (
+    'cap' => 'Vira and Vanessa West at the races on Rossbeigh Strand. Vanessa drove us and we had a marvelous day at the races.  Then, she took us to see a Museum Village.  They were all so nice to us.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  415 => 
+  array (
+    'cap' => 'Vira bet on these horses, racing on the sand beside the Atlantic Ocean at Rossbeigh Strand, (it means Rossbeigh Beach), in County Kerry. Jessie brought home a round, soft-colored purplish-gray stone from here.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  416 => 
+  array (
+    'cap' => 'This is the Ballymacelligott Church of Ireland, Anglican, where we attended Sunday morning service. Our mother, Louise (West) Quigley, and her family attended services here. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  417 => 
+  array (
+    'cap' => 'Vanessa West in front of her house with her English Spaniels, Jessie and Judy, and her Jack Russell Terrier, Ritzy. The hydrangeas were beautiful.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  418 => 
+  array (
+    'cap' => 'Arthur West and Vira ready for church on a Sunday morning, in front of Arthur\'s house in Gortatlea, County Kerry.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  419 => 
+  array (
+    'cap' => 'Vira Cogswell, John West and Jessie Mueller at John\'s home in Tralee. John has a butcher shop in Tralee and he is also a wholesale butcher.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  420 => 
+  array (
+    'cap' => 'Looking at the blue Atlantic Ocean from the Dingle Peninsula.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  421 => 
+  array (
+    'cap' => 'The Gallarus Oratory on the Dingle Peninsula was built of stone, using no mortar.  It is thought to be the earliest church in Ireland.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  422 => 
+  array (
+    'cap' => 'There are many sheep on the Dingle Peninsula.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  423 => 
+  array (
+    'cap' => 'Vira Cogswell coming out of an ancient "Beehive" hut on the Dingle Peninsula.  These were built by the early monks, using stones and no mortar.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  424 => 
+  array (
+    'cap' => 'Amanda (West) Tarrant on the Dingle Peninsula with the Atlantic Ocean behind her.  She very kindly drove us all around the Peninsula.  She also took us to Shannon Airport the day we left, a two-hour drive.  On the way, we stopped in Ballycannon, County Limerick to visit Bob & Joan West, Niall\'s parents.  
+  
+  ',
+  ),
+  425 => 
+  array (
+    'cap' => 'Sheep by the roadside as we go up Conor Pass on the Dingle Peninsula, heading from Tralee to the Town of Dingle.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  426 => 
+  array (
+    'cap' => 'Jessie Mueller with the Blennerville Windmill in the background.  Tra Li in Irish and Tralee in English mean the River Lee, which she is standing beside.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  427 => 
+  array (
+    'cap' => 'Valetta Blennerhassett\'s hydrangea bushes.  Her husband, Tommy, passed away recently.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+  428 => 
+  array (
+    'cap' => 'Valetta Blennerhassett at home in Gortatlea, County Kerry, Ireland.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ',
+  ),
+);
+
+?>

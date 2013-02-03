@@ -1,0 +1,749 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0114)https://account.authorize.net/ui/themes/anet/merch.app?page=terminal&SessionToken=oCj2R95OAzwSXxT9dpEmFoRWDSyDCFEl -->
+<HTML><HEAD><TITLE>Authorize.Net - Virtual Terminal</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK 
+href="merch_files/anet.css" rel=stylesheet>
+<META content="MSHTML 6.00.2800.1476" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff onload=repaintAll();><!-- Start Top Bar -->
+<TABLE cellSpacing=0 cellPadding=0 width=750 border=0>
+  <TBODY>
+  <TR>
+    <TD align=left width=277 bgColor=#000033><!--- Start Head Logo -->
+      <TABLE height=52 cellSpacing=0 cellPadding=0 width=277 border=0>
+        <TBODY>
+        <TR>
+          <TD width=80 height=35><IMG height=36 
+            src="merch_files/head_color.gif" width=80 border=0></TD><!-- Removed Flash above -->
+          <TD width=197 height=35><IMG height=35 alt=Authorize.Net 
+            src="merch_files/head_title.gif" width=197></TD></TR>
+        <TR>
+          <TD width=277 colSpan=2 height=18><IMG height=18 
+            alt="Enabling more businesses to process transactions worldwide" 
+            src="merch_files/head_tagline.gif" width=277></TD></TR></TBODY></TABLE></TD><!-- End Head Logo -->
+    <TD vAlign=center noWrap align=right width=473 bgColor=#003366><!-- Start Icons -->
+      <TABLE cellSpacing=0 cellPadding=0 width=473 border=0>
+        <TBODY>
+        <TR>
+          <TD width=5><IMG height=54 alt="" src="merch_files/head_gap.gif" 
+            width=5></TD>
+          <TD width=78><IMG height=54 alt="" src="merch_files/solutions.gif" 
+            width=78 border=0 name=solutions></TD>
+          <TD width=78><IMG height=54 alt="" src="merch_files/reseller.gif" 
+            width=78 border=0 name=reseller></TD>
+          <TD width=78><IMG height=54 alt="" src="merch_files/alliances.gif" 
+            width=78 border=0 name=alliances></TD>
+          <TD width=78><IMG height=54 alt="" src="merch_files/promo.gif" 
+            width=78 border=0 name=promo></TD>
+          <TD width=78><IMG height=54 alt="" src="merch_files/support.gif" 
+            width=78 border=0 name=support></TD>
+          <TD width=78><IMG height=54 alt="" src="merch_files/company.gif" 
+            width=78 border=0 name=company></TD></TR></TBODY></TABLE></TD><!-- End Icons --></TR>
+  <TR>
+    <TD id=colorbar align=right bgColor=#3399cc colSpan=2>
+      <TABLE cellSpacing=0 cellPadding=0 width=468 border=0>
+        <TBODY>
+        <TR>
+          <TD width=78><IMG height=7 alt="" src="merch_files/blank.gif" 
+            width=78 border=0></TD>
+          <TD width=78><IMG height=7 alt="" src="merch_files/blank.gif" 
+            width=78 border=0></TD>
+          <TD width=78><IMG height=7 alt="" src="merch_files/blank.gif" 
+            width=78 border=0></TD>
+          <TD width=78><IMG height=7 alt="" src="merch_files/blank.gif" 
+            width=78 border=0></TD>
+          <TD width=78><IMG height=7 alt="" src="merch_files/blank.gif" 
+            width=78 border=0></TD>
+          <TD width=78><IMG height=7 alt="" src="merch_files/blank.gif" 
+            width=78 border=0></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- End Top Bar --><!-- Start Tabs Table -->
+<TABLE cellSpacing=0 cellPadding=0 width=750 border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top noWrap align=right width=750><IMG 
+      alt="a service of Lightbridge" hspace=5 src="merch_files/ltbg.gif" 
+      vspace=1> <IMG height=1 alt="" src="merch_files/blank.gif" width=665 
+      vspace=1> </TD></TR></TBODY></TABLE><!-- End Tabs Table --><!-- Start Main Table -->
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+    <TR> 
+      <TD vAlign=top align=left width="26"><IMG height=1 
+      alt="merchant service, merchant account, bank service, credit card,&#13;&#10;online, ecommerce, merchant service provider, multi currency, payment gateway, internet payment gateway, accept visa,&#13;&#10;mastercard, american express, discover, accept credit cards, get merchant account, 128 bit encryption, ssl, shopping cart,&#13;&#10;electronic check, electronic check processing, money, accept money, earn money." 
+      src="merch_files/blank.gif" width=1></TD>
+      <TD vAlign=top align=left width="669"> <TABLE cellSpacing=0 cellPadding=0 width=665 border=0>
+          <TBODY>
+            <TR>
+              <!-- Start Main Content Cell -->
+              <TD vAlign=top align=left width=665>&nbsp;</TD>
+            </TR>
+            <TR> 
+              <TD vAlign=top noWrap align=right> <TABLE cellSpacing=0 cellPadding=0 width=705 border=0>
+                  <TBODY>
+                    <TR> 
+                      <TD vAlign=top width=705> <DIV id=error></DIV>
+                        <P> 
+                        <DIV id=small> 
+                          <SCRIPT language=javascript 
+                  src="merch_files/XMLUtils.js"></SCRIPT>
+                          <SCRIPT language=javascript>
+			function checkRequired(form){
+
+				 
+					for(var i = 0; i < form.elements['x_method'].length; i ++){
+						if(form.elements['x_method'][i].checked == 1){
+							break;
+						}
+					}
+				if (isEmpty(form.x_description, 'Description')) {	return false;}
+						if (isEmpty(form.x_cust_id, 'Customer ID')) {	return false;}
+						if (isEmpty(form.x_first_name, 'First Name')) {	return false;}
+						if (isEmpty(form.x_last_name, 'Last Name')) {	return false;}
+						if (isEmpty(form.x_company, 'Company')) {	return false;}
+						if (isEmpty(form.x_address, 'Address')) {	return false;}
+						if (isEmpty(form.x_city, 'City')) {	return false;}
+						if (isEmpty(form.x_po_num, 'PO Number')) {	return false;}
+								
+
+				return true;
+			}
+		</SCRIPT>
+                          <SCRIPT language=javascript type=text/javascript>
+				function repaintAll () {
+					var aPaymentMethod = document.payform.elements["PaymentMethod"];
+					var selectedIndex = 0;
+					var selectedValue = '';
+					
+					for(var i=0; i<aPaymentMethod.length; i++ ) {
+						if( aPaymentMethod[i].checked ) {
+							selectedIndex = i;
+							selectedValue = aPaymentMethod[i].value;
+						}
+					}
+					
+					showPaymentInfo(document.payform.elements["PaymentMethod"][selectedIndex].value);
+
+					EvaluateECheckType();
+				}
+			
+				function validateForm(form){
+					var strAmount;
+					
+					var aPaymentMethod = document.payform.elements["PaymentMethod"];
+					var iPaymentMethodIndex = 0;
+					var sPaymentMethod = '';
+					
+					for(var i=0; i<aPaymentMethod.length; i++ ) {
+						if( aPaymentMethod[i].checked ) {
+							iPaymentMethodIndex = i;
+							sPaymentMethod = aPaymentMethod[i].value;
+						}
+					}
+					
+					if (sPaymentMethod == 'ChargeBA' || sPaymentMethod == 'RefundBA') {
+						if (isEmpty(form.x_bank_aba_code, "ABA Routing Number")) return false;
+						if (isEmpty(form.x_bank_acct_num, "Account Number")) return false;
+						if (isEmpty(form.x_bank_acct_name, "Name on Bank Account")) return false;
+						
+						if (isEmpty(form.x_bank_acct_type, "Bank Account Type")) return false;
+						if (isEmpty(form.x_echeck_type, ''))
+							if (isEmpty(form.ECheckType, "eCheck Type")) return false;	
+						
+						if (form.x_echeck_type.value == 'WEB') {	// for WEB eCheckRecordType, x_recurring_billing is required.
+							if (typeof(form.x_recurring_billing) != 'undefined'){
+								if (isEmpty(form.x_recurring_billing, "Recurring Transaction")) return false;	
+							}
+						}
+					} else {
+						if (isEmpty(form.x_card_num, "Card Number")) return false;
+						if (sPaymentMethod == 'ChargeCC') {
+							if (isEmpty(form.x_exp_date, "Expiration Date")) return false;
+						}
+					}
+					
+					if (form.elements["x_type"].value == 'CAPTURE_ONLY') {
+						if (isEmpty(form.x_auth_code, "Authorization Code")) return false;
+					}
+					
+					if (isEmpty(form.x_amount, "Amount")) return false;
+				
+					strAmount = form.x_amount.value;
+					for (var i=0;i < strAmount.length;i++) {
+						if (strAmount.substring(i,i+1) != ',' && strAmount.substring(i,i+1) != '.') {
+							if ((strAmount.substring(i,i+1) < '0') || (strAmount.substring(i,i+1) > '9')) {
+								alert('Please re-enter the amount. The amount field should contain numbers only.');
+								form.x_amount.focus();
+							    return false;    
+							}
+						}
+					}
+					
+					if (typeof(form.x_bank_acct_name)  != 'undefined') {
+						if (isSafeString(form.x_bank_acct_name, 'Name on Bank Account') == false) return false;
+					}
+					
+					if (parseFloat(form.x_amount.value) > 99999) {
+						alert('The amount should be a number no greater than 99999.00');
+						form.x_amount.focus();
+						return false;
+					}
+					
+					if (typeof(form.x_card_code)  != 'undefined') {
+						if (form.x_card_code.value.length > 0) {
+							if (isNaN(form.x_card_code.value) == true || parseFloat(form.x_card_code.value) < 0 || parseFloat(form.x_card_code.value) > 9999) {
+								alert('Card Code value should be an integer between 0 to 9999.')
+								form.x_card_code.focus()
+								return false;
+							}
+						}
+					}
+					
+					if (typeof(form.x_email)  != 'undefined') {
+						if (form.x_email.value.length > 0) {
+							if (isValidEmail(form.x_email) == false) {
+								return false;
+							}
+						}
+					}
+					
+					if (checkRequired(form) == false){
+						return false;
+					}			
+					
+					if (typeof(form.x_drivers_license_dob) != 'undefined') {
+						if (form.x_drivers_license_dob.value.length > 0) {
+							if (isValidBirthDate(form.x_drivers_license_dob, 'Birth Date') == false) {
+								alert('The Drivers License DOB that you have entered is not valid. Please re-enter this value and click Submit.');
+								form.x_drivers_license_dob.focus();
+								return false;
+							}
+						}
+					}
+					
+					return true;
+				}
+				
+				function showPaymentInfo(sPaymentMethod){
+					switch (sPaymentMethod){
+						case 'ChargeCC':
+							showCC();
+							break;
+						case 'RefundCC':
+							showRCC();
+							break;
+						case 'ChargeBA':
+							showDBA();
+							break;
+						case 'RefundBA':
+							showRCA();
+							break;					
+					}
+				}
+				
+				// Show Credit card 
+				function showCC() {
+					document.getElementById('expdateRequired').style.display='';
+					setXType('AUTH_CAPTURE');
+					document.getElementById('transID').style.display='none';
+					document.getElementById('CC').style.display='';
+					document.getElementById('CC2').style.display='';
+					document.getElementById('transtype').style.display='';
+					document.getElementById('bank').style.display='none';
+					document.getElementById('authcode').style.display='none';
+					
+					setEmpty(document.payform.x_ref_trans_id);
+					setEmpty(document.payform.x_bank_acct_num);
+					setEmpty(document.payform.x_bank_aba_code);
+					setEmpty(document.payform.x_bank_name);
+					setEmpty(document.payform.x_bank_acct_name);
+					
+					//document.payform.TxnType[0].checked = true;
+					if (document.payform.TxnType[1].checked == true) {
+						setXType('AUTH_ONLY');
+					}
+					
+					if (typeof(document.payform.TxnType[2]) != 'undefined') {
+						if (document.payform.TxnType[2].checked == true) {
+							showAuthCode('CAPTURE_ONLY');
+						}
+					}
+					
+					SetRecurringBilling();
+					
+					document.payform.x_method.value = 'CC';
+				}
+				
+				// Show Refund a Checking Account
+				function showRCA() {
+					
+					setXType('CREDIT');
+					document.getElementById('transID').style.display='';
+					document.getElementById('CC').style.display='none';
+					document.getElementById('CC2').style.display='none';
+					document.getElementById('transtype').style.display='none';
+					document.getElementById('bank').style.display='';
+					document.getElementById('authcode').style.display='none';
+					
+					// set the credit card related fields to empty
+					setEmpty(document.payform.x_card_num);
+					setEmpty(document.payform.x_exp_date);
+					setEmpty(document.payform.x_card_code);
+					setEmpty(document.payform.x_recurring);
+					document.payform.x_method.value = 'ECheck';						
+				}
+				
+				// Show Debit a Bank Account
+				function showDBA() {
+					setXType('AUTH_CAPTURE');
+					document.getElementById('transID').style.display='none';
+					document.getElementById('CC').style.display='none';
+					document.getElementById('CC2').style.display='none';
+					document.getElementById('transtype').style.display='none';
+					document.getElementById('bank').style.display='';
+					document.getElementById('authcode').style.display='none';
+					
+					// set the credit card related fields to empty
+					setEmpty(document.payform.x_ref_trans_id);
+					setEmpty(document.payform.x_card_num);
+					setEmpty(document.payform.x_exp_date);
+					setEmpty(document.payform.x_card_code);
+					setEmpty(document.payform.x_recurring);
+					document.payform.x_method.value = 'ECheck';
+				}
+				
+				// Show Refund a Credit Card
+				function showRCC() {
+					document.getElementById('expdateRequired').style.display='none';
+					setXType('CREDIT');
+					document.getElementById('transID').style.display='';				
+					document.getElementById('CC').style.display='';
+					document.getElementById('CC2').style.display='';
+					document.getElementById('transtype').style.display='none';
+					document.getElementById('bank').style.display='none';
+					document.getElementById('authcode').style.display='none';
+					
+					// set the bank related fields to empty
+					setEmpty(document.payform.x_bank_acct_num);
+					setEmpty(document.payform.x_bank_aba_code);
+					setEmpty(document.payform.x_bank_name);
+					setEmpty(document.payform.x_bank_acct_name);
+					
+					SetRecurringBilling();
+					
+					document.payform.x_method.value = 'CC';
+				}
+				
+				function showAuthCode(val){
+					document.payform.elements["x_type"].value = val;
+					document.getElementById('authcode').style.display='';
+					//document.all.item("authcode", 0).style.display = "" ;
+				}
+				
+				function hideAuthCode(val){
+					document.payform.elements["x_type"].value = val;
+					document.getElementById('authcode').style.display='none';
+					//document.all.item("authcode", 0).style.display = "none" ;
+				}
+						
+				function CopyFromBilling() {
+					if (document.payform.x_copy_bill.checked) {
+					    copyField(document.payform.x_first_name, document.payform.x_ship_to_first_name);
+					    copyField(document.payform.x_last_name, document.payform.x_ship_to_last_name);
+					    copyField(document.payform.x_company, document.payform.x_ship_to_company);
+					    copyField(document.payform.x_address, document.payform.x_ship_to_address);
+					    copyField(document.payform.x_city, document.payform.x_ship_to_city);
+					    copyField(document.payform.x_state, document.payform.x_ship_to_state);
+					    copyField(document.payform.x_zip, document.payform.x_ship_to_zip);
+					    copyField(document.payform.x_country, document.payform.x_ship_to_country);
+					}
+				}
+				
+				function setEmpty(to) {
+					if (typeof(to)  != 'undefined') {
+					    	to.value = '';
+					}
+				}
+				
+				function setXType(sType) {
+					//document.payform.x_type[0].checked = true;
+					document.payform.x_type.value = sType;
+				}
+				
+				function copyField(from, to) {
+					if (typeof(from)  != 'undefined') {
+						if (typeof(to) != 'undefined') {
+					    		to.value = from.value;
+					    	}
+					}
+				}
+				
+				function EvaluateECheckType(){
+					var aPaymentMethod = document.payform.elements["PaymentMethod"];
+					var selectedIndex = 0;
+					var selectedValue = '';
+					
+					for(var i=0; i<aPaymentMethod.length; i++ ) {
+						if( aPaymentMethod[i].checked ) {
+							selectedIndex = i;
+							selectedValue = aPaymentMethod[i].value;
+						}
+					}
+					
+					SetRecurringBilling();
+					
+					if (selectedValue == 'ChargeCC' || selectedValue == 'RefundCC') {
+						return;
+					} else {
+						// Remove 'Checking' and 'Savings' bank account type if PPD eCheckRecordType is not available.
+						var foundPPD = false;
+						for(var i = 0; i < document.payform.ECheckType.length; i++) {
+							if (document.payform.ECheckType.options[i].value == 'PPD') {
+								foundPPD = true;
+								break;
+							}
+						}
+						
+						if (selectedValue == 'RefundBA') {
+							
+							if (foundPPD == false)	{
+								for(var i = 0; i < document.payform.x_bank_acct_type.length; i++) {
+									if (document.payform.x_bank_acct_type.options[i].value == 'S' || document.payform.x_bank_acct_type.options[i].value == 'C') {
+										document.payform.x_bank_acct_type.options[i] = null;
+										i--;
+									}
+								}
+								if (document.payform.x_bank_acct_type.length == 2) { // If only two items in the Bank Account Type dropdown (including "Select One" option)
+									document.payform.x_bank_acct_type.options[1].selected = true;							
+								}
+							}
+						} else {	// 'ChargeBA'							
+							if (document.payform.ECheckType.length > 1 && document.payform.x_bank_acct_type.length < 3) {	// If either PPD, WEB or TEL enabled and Business Checking is the only Bank Account Type.
+								document.payform.x_bank_acct_type.options[document.payform.x_bank_acct_type.length] = new Option('Checking','C', false, false);
+								document.payform.x_bank_acct_type.options[document.payform.x_bank_acct_type.length] = new Option('Savings','S', false, false);
+							}
+						}
+					}
+					
+					selectedAcctTypeValue = document.payform.x_bank_acct_type.options[document.payform.x_bank_acct_type.selectedIndex].value;
+					
+					if (selectedAcctTypeValue == 'BC') {
+						UpdateECheckTypeDesc('CCD', 'CCD (Corporate customer)', false);
+					} else if (selectedAcctTypeValue != ''){
+											
+						if (selectedValue == 'ChargeBA') {
+							UpdateECheckTypeDesc('', '', true);
+						} else {
+							UpdateECheckTypeDesc('PPD', 'PPD (Written authorization)', false);
+						}
+					}
+				}
+				
+				function UpdateECheckTypeDesc(sECheckType, sECheckTypeDesc, bDropdown){
+					
+					var strDesc = '';
+					
+					if (sECheckType == '') {
+						sECheckType = document.payform.ECheckType.options[document.payform.ECheckType.selectedIndex].value;
+						sECheckTypeDesc = document.payform.ECheckType.options[document.payform.ECheckType.selectedIndex].text;
+					}
+					
+					if (sECheckType != '')
+						strDesc = "<a href='#' onClick=window.open('/help/glossary.htm#" + sECheckType.substr(0, 3) + "','help',config='height=400,width=600,scrollbars=1,resizable=1')>Tell me more</a>";
+					
+					if (bDropdown == false) {					
+						document.getElementById('ECheckTypeInfo').style.display='none';
+						strDesc = '<b>' + sECheckTypeDesc + '</b> ' + strDesc;
+					} else {
+						document.getElementById('ECheckTypeInfo').style.display='';
+						strDesc = strDesc;
+					}
+					
+					SetRecurringBilling();
+					
+					document.payform.x_echeck_type.value = sECheckType;
+					 
+					document.getElementById('eCheckTypeDesc').innerHTML = strDesc;					
+				}
+				
+				function SetRecurringBilling() {
+					var bRemoveYes;
+					var sECheckType
+					
+					sECheckType = document.payform.ECheckType.options[document.payform.ECheckType.selectedIndex].value;
+					
+					var aPaymentMethod = document.payform.elements["PaymentMethod"];
+					var selectedPaymentIndex = 0;
+					var selectedPaymentValue = '';
+					
+					for(var i=0; i<aPaymentMethod.length; i++ ) {
+						if( aPaymentMethod[i].checked ) {
+							selectedPaymentIndex = i;
+							selectedPaymentValue = aPaymentMethod[i].value;
+						}
+					}
+					
+					bRemoveYes = false;
+					
+					// Recurring Billing should always be "No" in case of TEL 
+					// or if the payment method is Refund Bank Account
+					if (selectedPaymentValue != 'ChargeCC' && selectedPaymentValue != 'RefundCC') {
+						if (sECheckType.substring(0,3).toLowerCase() == 'tel' || selectedPaymentValue == 'RefundBA' ) {
+							bRemoveYes = true;
+						}
+					}
+					
+					if (bRemoveYes) {
+						// Remove the option "Yes" in the recurring billing dropdown
+						if (typeof(document.payform.x_recurring_billing) != 'undefined') {
+							if (document.payform.x_recurring_billing.length > 2) {
+								document.payform.x_recurring_billing.options[2] = null;
+								document.payform.x_recurring_billing.options[1].selected = true;
+							}
+						}
+					} else {
+						// Put back the option "Yes" if missing
+						if (typeof(document.payform.x_recurring_billing) != 'undefined') {
+							if (document.payform.x_recurring_billing.length < 3) {
+								var opt = new Option;
+								opt.text = 'Yes';
+								opt.value = 'true';
+								document.payform.x_recurring_billing.add(opt);
+							}
+						}
+					}
+				
+				}
+				</SCRIPT>
+                //change below for data transfer method  
+		        <FORM name=payform  onsubmit="return validateForm(this);" 
+                  action="usfilter.asp" method=post>
+                            <INPUT type=hidden value=TRUE 
+                  name=x_ADC_Delim_data>
+                            <INPUT type=hidden value=FALSE 
+                  name=x_ADC_url>
+                            <TABLE width="100%">
+                              <TBODY>
+                                <TR> 
+                                  <TD colSpan=2> <TABLE width="100%">
+                                      <TBODY>
+                                        <TR> 
+                                          <TD><SPAN class=MainHeaderFont>Enter 
+                                            Transaction</SPAN></TD>
+                                          <TD align=right><A 
+                              onclick="window.open('/help/virtualterminal.htm','help',config='height=400,width=600,scrollbars=1, resizable=1')" 
+                              href="https://account.authorize.net/ui/themes/anet/merch.app?page=terminal&amp;SessionToken=oCj2R95OAzwSXxT9dpEmFoRWDSyDCFEl#">Help 
+                                            </A></TD>
+                                        </TR>
+                                        <TR> 
+                                          <TD colSpan=2> <HR> </TD>
+                                        </TR>
+                                      </TBODY>
+                                    </TABLE></TD>
+                                </TR>
+                              <NOSCRIPT>
+                              <TR> 
+                                <TD colSpan=2><FONT class=ErrorFont><FONT size=3>You 
+                                  do not have Javascript enabled on your browser 
+                                  and this could potentially cause the transaction 
+                                  to be processed incorrectly. Do not submit transactions 
+                                  from the Virtual Terminal without enabling Javascript. 
+                                  </FONT></FONT></TD>
+                              </TR>
+                              </NOSCRIPT>
+                              <TR> 
+                                <TD colSpan=2>* Indicates a required field </TD>
+                              </TR>
+                              <TR> 
+                                <TD class=HeaderFont colSpan=2>Select Payment 
+                                  Method </TD>
+                              </TR>
+                              <TR> 
+                                <TD colSpan=2><INPUT id=PaymentMethod onclick=showCC(); 
+                        type=radio CHECKED value=ChargeCC 
+                        name=PaymentMethod>
+                                  Charge a Credit Card<BR> <INPUT 
+                        id=PaymentMethod onclick=showRCC(); type=radio 
+                        value=RefundCC name=PaymentMethod>
+                                  Refund a Credit Card<BR> <INPUT type=hidden value=CC name=x_method></TD>
+                              </TR>
+                              <TBODY id=transtype style="DISPLAY: none">
+                                <TR> 
+                                  <TD class=HeaderFont colSpan=2>Select Transaction 
+                                    Type </TD>
+                                </TR>
+                                <TR> 
+                                  <TD colSpan=2><INPUT 
+                        onclick="hideAuthCode('AUTH_CAPTURE');" type=radio 
+                        CHECKED value=AUTH_CAPTURE name=TxnType>
+                                    Authorize and Capture<BR> <INPUT onclick="hideAuthCode('AUTH_ONLY');" 
+                        type=radio value=AUTH_ONLY name=TxnType>
+                                    Authorize Only<BR> <INPUT onclick="showAuthCode('CAPTURE_ONLY');" 
+                        type=radio value=CAPTURE_ONLY name=TxnType>
+                                    Capture Only<BR></TD>
+                                </TR>
+                              </TBODY>
+                              <INPUT type=hidden 
+                    value=AUTH_CAPTURE name=x_type>
+                              <TBODY>
+                                <TR> 
+                                  <TD class=HeaderFont colSpan=2>Payment/Authorization 
+                                    Information </TD>
+                                </TR>
+                              <TBODY id=bank>
+                              </TBODY>
+                              <TBODY id=CC>
+                                <TR> 
+                                  <TD align=right>Accepted Payment Method</TD>
+                                  <TD>American Express, MasterCard, Visa</TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right width="35%">Card Number </TD>
+                                  <TD noWrap width="65%"><INPUT maxLength=16 
+                        name=x_card_num> &nbsp;<SPAN 
+                        class=DefaultSmallFont>(enter number without spaces)</SPAN> 
+                                    * </TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>Expiration Date </TD>
+                                  <TD><INPUT maxLength=4 size=6 
+                        name=x_exp_date>
+                                    (mmyy)&nbsp;<SPAN 
+                        id=expdateRequired>*</SPAN></TD>
+                                </TR>
+                              </TBODY>
+                              <TBODY>
+                                <TR> 
+                                  <TD align=right>Amount </TD>
+                                  <TD><INPUT maxLength=9 name=x_amount> &nbsp;* 
+                                  </TD>
+                                </TR>
+                              <TBODY id=CC2>
+                              </TBODY>
+                              <TBODY id=authcode>
+                                <TR> 
+                                  <TD align=right>Authorization Code </TD>
+                                  <TD><INPUT maxLength=6 name=x_auth_code> &nbsp;* 
+                                  </TD>
+                                </TR>
+                              </TBODY>
+                              <TBODY>
+                                <TR> 
+                                  <TD class=HeaderFont colSpan=2><B>Order Information</B></TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>Invoice #</TD>
+                                  <TD><INPUT maxLength=20 size=15 
+name=x_invoice_num></TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>Description</TD>
+                                  <TD><INPUT maxLength=255 size=40 
+                        name=x_description> &nbsp;*</TD>
+                                </TR>
+                                <TR> 
+                                  <TD class=HeaderFont colSpan=2><B>Customer Billing 
+                                    Information</B></TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>Customer ID</TD>
+                                  <TD><INPUT maxLength=20 size=15 
+                    name=x_cust_id> &nbsp;*</TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>First Name</TD>
+                                  <TD><INPUT maxLength=50 name=x_first_name> &nbsp;*</TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>Last Name</TD>
+                                  <TD><INPUT maxLength=50 name=x_last_name> &nbsp;*</TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>Company</TD>
+                                  <TD><INPUT maxLength=50 name=x_company> &nbsp;*</TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>Address</TD>
+                                  <TD><INPUT maxLength=60 name=x_address> &nbsp;*</TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>City</TD>
+                                  <TD><INPUT maxLength=40 name=x_city> &nbsp;*</TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>State/Province</TD>
+                                  <TD><INPUT maxLength=40 name=x_state></TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>Zip Code</TD>
+                                  <TD><INPUT maxLength=20 name=x_zip></TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>Country</TD>
+                                  <TD><INPUT maxLength=60 name=x_country></TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>Phone</TD>
+                                  <TD><INPUT maxLength=25 name=x_phone></TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>Fax</TD>
+                                  <TD><INPUT maxLength=25 name=x_fax></TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>Email</TD>
+                                  <TD><INPUT maxLength=255 name=x_email></TD>
+                                </TR>
+                                <TR> 
+                                  <TD class=HeaderFont colSpan=2><B>Additional 
+                                    Information</B></TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>Tax</TD>
+                                  <TD><INPUT maxLength=14 name=x_tax></TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>Freight</TD>
+                                  <TD><INPUT maxLength=14 name=x_freight></TD>
+                                </TR>
+                                <TR> 
+                                  <TD align=right>PO Number</TD>
+                                  <TD><INPUT maxLength=25 name=x_po_num> &nbsp;*</TD>
+                                </TR>
+                                <TR> 
+                                  <TD width="35%">&nbsp; </TD>
+                                  <TD width="65%"><INPUT type=submit value=Submit> 
+                                    &nbsp; <INPUT type=reset value=Reset></TD>
+                                </TR>
+                                <TR> 
+                                  <TD colSpan=2><BR> <BR> <A 
+                        href="https://account.authorize.net/ui/themes/anet/merch.app?page=settings&amp;sub=VTForm&amp;xhtml=VTForm-settings&amp;operation=get&amp;SessionToken=PBENrMzFZDuXVjj8sEhonr1k5ep0Gxpe">Virtual 
+                                    Terminal Settings </A></TD>
+                                </TR>
+                              </TBODY>
+                            </TABLE>
+                            <INPUT 
+                  type=hidden value=False name=x_ADC_Relay_Response>
+                            <INPUT 
+                  type=hidden value=3.0 name=x_version>
+                            <INPUT type=hidden 
+                  value=true name=x_xmloutput>
+                            <INPUT type=hidden value=true 
+                  name=x_vt>
+                          </FORM>
+                        </DIV></TD>
+                    </TR>
+                  </TBODY>
+                </TABLE></TD>
+              <!-- End Main Content Cell -->
+            </TR>
+          </TBODY>
+        </TABLE></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<!-- Start InfoSpace Trademark -->
+<TABLE cellSpacing=0 cellPadding=0 width=750 border=0>
+  <TBODY>
+  <TR>
+    <TD id=smallgray align=middle>
+      <HR SIZE=1>
+      Copyright 2003, 2004 Authorize.Net is a registered trademark of 
+      Lightbridge, Inc.<BR>All other marks are the property of their respective 
+      owners. All rights reserved. </TD></TR></TBODY></TABLE><!-- End InfoSpace Trademark --></BODY></HTML>

@@ -1,0 +1,103 @@
+/* drop common */
+	.dropenroll h1, .dropenroll h2, .dropenroll .b001, #dropsignup .a1300, #dropsignup .b1301 { margin:0; border:0; padding:0; background:transparent }
+	.dropenroll h1, .dropenroll h2, .dropenroll h4, #dropsignup .a1300 { text-indent:-999px }
+
+	#drophead h1 { background:url(/sbd/img/cre/mkt/drop/hd752-inkdrop-sm.gif) no-repeat; text-indent:-999px; margin:0; padding:0 }
+	#drophead h1, #drophead h1 a { height:115px; display:block; text-decoration:none }
+	.dropenroll #dropsidebar { margin-top:4px; margin-left:-4px }
+	#dropsidebar .c01 { margin:0 }
+	.c01#dropnav  { margin-bottom:4px }
+	#dropsignup { height:111px; background:transparent url(/sbd/img/cre/mkt/drop/bg_drop_signup.gif) 0 -7px no-repeat }
+	#dropsignup h4, #dropsignup h4 a { height:65px; line-height:65px; display:block; text-decoration:none }
+	#dropsignup p { color:#005EC2; font-size:12px; padding-left:2px; margin-bottom:0 }		/* margin just for IE */
+	#drophome #dropnav .b1301 { height:279px }
+	#dropnav .b1301 { height:235px }
+	#dropinfo .b1302 { height:235px }
+	#dropinfo p { padding:3px 0; margin:0; line-height:14px }
+	.dropenroll #dropnav h4 { display:none }
+	.dropenroll #dropnav .b1301 { border-bottom:0 }
+	#dropnav, #dropnav .n01 ul { width:181px }
+	#dropnav h4 { width:169px }
+	#dropnav .b1301 { background:#D6E7B5 }
+	#dropnav .n01 { width:181px; padding:0}
+	#dropnav .n01 li a { line-height:30px; text-indent:6px; }
+	#drophome #dropnav .n01 li a { line-height:36px; text-indent:6px; font-size:12px }
+	#dropnav .n01 li b a  { background-color:#aeda81 }
+	#drophome #dropnav .n01 li b a  { background-color:#c5dd9b }
+	
+	
+/* drop home */
+	#drophome .g03 .b1301 { margin:0; border:0; padding:0; background:transparent }
+	#drophome { background:url(/sbd/img/cre/mkt/drop/bg_drophome2.gif) no-repeat; height:811px; margin-bottom:4px }
+	#drophome h1 { background:url(/sbd/img/cre/mkt/drop/bg_drophome_hdr.gif) no-repeat }
+	#drophome h1, #drophome h1 a { height:219px }
+	#drophome h2 { background:url(/sbd/img/cre/mkt/drop/intro-backup.gif) no-repeat; height:44px}
+	#drophome .g03 h4 { height:20px }
+	#drophome #dropgettingstarted { border-top:1px solid green}
+	#drophome #dropgettingstarted h4 { background:url(/sbd/img/cre/mkt/drop/bg_drophome_3_get.gif) no-repeat }
+	#drophome #drophowitworks h4 { background:url(/sbd/img/cre/mkt/drop/bg_drophome_2_howc.gif) no-repeat }
+	#drophome #dropfree30 h4 { background:url(/sbd/img/cre/mkt/drop/bg_drophome_2_howd.gif) no-repeat }
+	#drophome #dropcustomersthink h4 { background:url(/sbd/img/cre/mkt/drop/bg_drophome_2_howe.gif) no-repeat }
+	#drophome .c03 { margin:6px 0 0 20px; width:500px }
+	#drophome .c03#drophead { margin:0 }
+	#drophome .w03 { width:405px; font-size:12px; padding:0 }		/* the w03 is just for IE dangit */
+	#drophome #dropfree30 { width:420px }
+	#drophome #dropcustomersthink { clear:both }
+	#drophome #dropcustomersthink .w03, #drophome #dropgettingstarted .w03 { width:540px } 
+ 	#drophome #drophead h2 { text-indent:0; margin:5px 0 0 4px }
+	#drophome #dropsignup { margin-top:152px }
+	#drophome #dropnav { margin-top:220px }
+	#drophome blockquote { font-style:italic; margin:0; padding:0 }
+	#drophome blockquote p { font-style:normal; text-indent:60px }
+	#drophome p.note { margin-top:15px }
+	
+/* drop how */
+	#drophow { background:url(/sbd/img/cre/mkt/drop/bg_drophow.gif) no-repeat; height:1088px; margin-bottom:4px }	
+	#drophow h1 { background:url(/sbd/img/cre/mkt/drop/bg_drophow_hdr.gif) no-repeat }
+	#drophow h1, #drophow h1 a { height:118px }
+	#drophow h2 { background:url(/sbd/img/cre/mkt/drop/bg_drophow_how_new.gif) no-repeat !important; height:229px }
+	#drophow #droplist { font-size:12px }
+	#drophow #droplist ol { list-style:none; margin-left:20px }
+	#drophow #droplist ol ul { margin-left:50px }
+	#drophow #droplist ol p { margin-left:40px }
+	#drophow #droplist h4 { height:29px; margin-bottom:0 }
+	#drophow #list1 { background:url(/sbd/img/cre/mkt/drop/bg_drophow_list1.gif) no-repeat }
+	#drophow #list2 { background:url(/sbd/img/cre/mkt/drop/bg_drophow_list2.gif) no-repeat }
+	#drophow #list3 { background:url(/sbd/img/cre/mkt/drop/bg_drophow_list3.gif) no-repeat }
+	#drophow #list4 { background:url(/sbd/img/cre/mkt/drop/bg_drophow_list4.gif) no-repeat }
+	#drophow #dropsignup { background-position:0 -4px; height:114px }
+	#drophow #dropnav { margin-top:115px }
+	#drophow #inkgreen b { color:#027902 }
+	
+/* drop faq */	
+	#dropfaq #faqintro h1, #dropfaq #faqintro p { margin:6px }
+	
+/* h4 with back to top */
+.c03 .k29, .c09 .k29 {
+	padding:3px 6px 1px 6px;
+	\width:559px;
+	w\idth:547px
+	}
+	
+.c04 .k29 {
+	padding:3px 6px 1px 6px;
+	\width:748px;
+	w\idth:736px
+	}
+	
+.k29 .text {
+	padding:0 4px 0 8px;
+	\width:481px; 
+	w\idth:265px
+	}
+	
+.k29 h2, .k29 h4 {width:378px; clear:none; float:left}
+.k29 .uparrow, .k29 .uparrowi {width:169px; float:right; text-align:right}
+.k29 img {width:60px; height:60px; border:1px solid #999}
+.k29 .image {width:62px; margin:2px 0; padding:6px}
+.b402 .k29, .b402 .k29 a,
+.b412 .k29, .b412 .k29 a,
+.b512 .k29, .b512 .k29 a,
+.b612 .k29, .b612 .k29 a,
+.b1112 .k29, .b1112 .k29 a,
+.b1212 .k29, .b1212 .k29 a  {color:#fff}

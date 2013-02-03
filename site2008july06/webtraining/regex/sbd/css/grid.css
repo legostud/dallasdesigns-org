@@ -1,0 +1,44 @@
+/* content wrapper */
+.c00 {
+	overflow:hidden; 
+	clear:left;
+	padding:4px 0px 0px 4px;
+	background:#fff;
+	color:#000;
+	\width:760px;
+	w\idth:756px}
+	
+/* column wrappers - do not include margin width*/
+.c01, .c015, .c016, .c02, .c03, .c04, .c07, .c08, .c09, .c12, .c21, .c22 {margin:0 4px 4px 0}
+
+/* 1 1/2 grid style */
+.c01 {width:185px}						/* 1 col */
+.c015 {width:279px}						/* 1.5 col */
+.c016 {width:280px}						/* 1.5 col v2 */
+.c02 {width:374px}						/* 2 col */
+.c03 {width:563px}						/* 3 col */
+.c04 {width:752px}						/* 4 col */
+.c07 {width:374px; margin-left:94px}	/* 2 col centered in 3 */
+.c08 {width:374px; margin-left:189px}	/* 2 col centered in 4 */
+.c09 {width:563px; margin-left:94px} 	/* 3 col centered in 4 */
+.c12 {width:374px; float:right}			/* 2 col - right*/
+.c21 {width:248px} 						/* 1.33 col */
+.c22 {width:500px} 						/* 2.66 col */
+
+/* group wrappers - include margin width */
+.g01 {width:189px}						/* 1 col */
+.g02 {width:378px}						/* 2 col */
+.g03 {width:567px}						/* 3 col */
+.g04 {width:756px}						/* 4 col */
+
+.g07 {width:378px; margin-left:94px}	/* 2 col centered in 3 */
+.g08 {width:378px; margin-left:189px}	/* 2 col centered in 4 */
+.g09 {width:567px; margin-left:94px}	/* 3 col centered in 4 */
+
+/* IE double margin bug fix - DO NOT REMOVE */
+.c01, .c015, .c016, .c02, .c03, .c04, .c07, .c08, .c09, .c12, .c21, .c22, 
+.g01, .g02, .g03, .g04, .g07, .g08, .g09 {display:inline}
+
+/* Fix for IE sometimes not doing margin-bottom:4px on c wrappers */
+.g04 {margin-bottom:4px;}
+.g04 .c01, .g04 .c02, .g04 .c03, .g04 .c04 {margin-bottom:0}

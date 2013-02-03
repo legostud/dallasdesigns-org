@@ -1,0 +1,342 @@
+/* global */
+body {
+	margin:0;
+	border:0;
+	padding:0 0 40px 0;
+	font-family:verdana, sans-serif;
+	font-size:11px;
+	background:#FFF url(http://www.dallasdesigns.org/webtraining/regex/sbd/img/bg_blue.gif);
+	color:#000}
+a:link, a:visited, a:hover, a:active {
+	text-decoration:underline; 
+	color:#005EC2}
+
+h1 {font-size:18px}
+h2 {font-size:14px}
+h3, big {font-size:12px}
+h4, h5, h6, input, select, option, textarea, table, td, th {font-size:11px}
+small {font-size:10px}
+
+h1, h2, h3, h4, h5, h6, p, dd {margin:0 0 8px 0}
+h1, h2, h3, h4, h5, h6, p, dd, ul, ol, dl {padding:0}
+dl, li, dt {margin:0}
+
+ul {margin:0 16px 8px 18px}
+ol {margin:0 16px 8px 24px}
+li {padding:4px 0}
+dt {font-weight:bold}
+
+ol li ol li {list-style:lower-alpha}
+ol li ul li {list-style:disc}
+ol li ol li ol li {list-style:decimal}
+
+b, strong {font-weight:bold}	
+i, i a:link, i a:visited, i a:hover, em, em a:link, em a:visited, em a:hover {font-style:normal; color:#c00}
+span.sm {font-size: 60%; vertical-align: top;} 
+
+blockquote {margin:0; padding:10px}
+address {font-style:normal}
+address.inkdrop {font-weight:bold; margin:20px 0 0 175px}
+img {border:0}
+
+hr {
+	border:0;
+	height:1px;
+	width:100%;
+	color:#999;
+	background:#999;
+	float:none;
+	clear:both}
+
+form, input {display:inline}	
+/* form {margin:0} */
+
+table {
+	width:100%;
+	table-layout:auto;
+	border-collapse:collapse;
+	border-spacing:0}
+caption, th, td {vertical-align:top; padding:4px 6px}
+caption, th {text-align:left}
+caption {font-weight:bold}
+
+div {float:left} 	
+/* 
+div:after {			
+	content:".";  
+	display:block; 
+	height:0; 
+	clear:both; 
+	visibility:hidden}
+*/
+	
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+	
+/* headers */
+.b004 h2, .b004 h3, 
+.b005 h2, .b005 h3, 
+.b006 h2, .b006 h3 {padding:0 0 4px 0}
+.b001 h2, .b001 h3, .b001 h4 {color:#000}								/* gray */
+.b002 h2, .b002 h3, .b002 h4 {color:#FC0}								/* gold */
+.b003 h2, .b003 h3, .b003 h4 {color:#C7CD00}							/* green */
+.b004 h2, .b004 h3, .b004 h4 {color:#005EC2}							/* blue */
+.b005 h2, .b005 h3, .b005 h4 {color:#8B2EBB}							/* purple */
+.b006 h2, .b006 h3, .b006 h4 {color:#0093A3}							/* teal */
+.b007 h2, .b007 h3, .b007 h4 {color:#C00}								/* red */
+.b008 h2, .b008 h3, .b008 h4 {color:#005EC2}							/* Seasonal blue */
+.b009 h2, .b009 h3, .b009 h4 {color:#E3E680}							/* Seasonal green */
+.b1001 h2, .b1001 h3, .b1001 h4 {color:#963}							/* UPS */
+.b1101 h2, .b1101 h3, .b1101 h4 {color:#B12D81}							/* plum */
+.b1201 h2, .b1201 h3, .b1201 h4 {color:#1C871C}							/* green - other */
+.b1301 h2, .b1301 h3, .b1301 h4, 
+.b0013 h2, .b0013 h3, .b0013 h4 {color:#6FAB04}							/* light green - Inkdrop */
+
+h1.h01, h1.h02, h2.h01, h3.h01 {margin:6px}
+h1.h02 {
+	padding:9px 0 8px 42px; 
+	line-height:18px; 
+	background:url(http://www.dallasdesigns.org/webtraining/regex/sbd/img/h02_icons.gif) no-repeat}
+h1.h02#h02personal {background-position:0 0}
+h1.h02#h02orders {background-position:0 -95px}
+h1.h02#h02reorder {background-position:0 -190px}
+h1.h02#h02lists {background-position:0 -285px}
+h1.h02#h02rewards {background-position:0 -380px}
+h1.h02#h02alert {background-position:0 -475px}
+h1.h02#h02cart {background-position:0 -570px}
+h1.h02#h02lqq {background-position:0 -665px}
+h1.h02#h02catalog {background-position:0 -760px}
+h1.h02#h02search {background-position:0 -855px}
+h1.h02#h02store {background-position:0 -950px}
+h1.h02#h02ups {background-position:0 -1045px}
+
+/* paragraphs */
+.b101 .w01 p,
+.b422 .w03 p, 
+.b501 .w01 p, .b501 .w02 p, .b501 .w03 p, 
+.b701 .w02 p, .b701 .w03 p, .b701 .w04 p, 
+.b711 .w02 p, .b711 .w03 p, .b711 .w04 p,
+.b622 .w03 p {padding:4px 0}
+
+/* images */
+img.thbleft, img.thbright {width:60px; height:60px; border:1px solid #999}
+img.thbleft, img.cmleft {float:left; margin:2px 8px 8px 0}
+img.cmright, img.thbright {float:right; margin:2px 0 8px 8px}
+
+img.cmleft.inkdrop {margin-right:30px}
+
+/* horizontal rules */
+.b001 hr {background:#AEAEAE; color:#AEAEAE}	/* gray */
+.b002 hr {background:#FC0; color:#FC0}			/* yellow */
+.b003 hr {background:#C7CD00; color:#C7CD00}	/* green */
+.b004 hr {background:#2C8AED; color:#2C8AED}	/* blue */
+.b005 hr {background:#A947DC; color:#A947DC}	/* purple */
+.b006 hr {background:#15B5C8; color:#15B5C8}	/* teal */
+.b007 hr {background:#C00; color:#C00}			/* red */
+.b008 hr {background:#005EC2; color:#005EC2}	/* Seasonal blue */
+.b009 hr {background:#E3E680; color:#E3E680}	/* Seasonal green */
+.b1001 hr {background:#996633; color:#996633}	/* UPS */
+.b1101 hr {background:#D66CC0; color:#D66CC0}	/* Plum */
+.b1201 hr {background:#1C871C; color:#1C871C}	/* Green - other */
+.b1302 hr {background:#FFEFB5; color:#FFEFB5}	/* light Green - other */
+
+/* unordered lists */
+.info ul, ul.info, .none ul, ul.none {
+	margin:0; 
+	padding:0 0 8px 0;
+	clear:both; 
+	list-style:none}
+.info li {margin:0; padding:0}
+ul li.sub {list-style:none}
+ul.inline {margin:0}
+ul.inline li {display:inline}
+.b006 .compact li a:hover {background:#BBEDF3}
+ul.dotlist {margin:0; list-style:none}
+ul.dotlist li {background:url(http://www.dallasdesigns.org/webtraining/regex/sbd/img/dotarrow.gif) no-repeat 0 5px; padding-left:10px}
+
+/* ordered lists */
+ol.alpha {list-style:upper-alpha}
+ol li ul.none li ol li {list-style:decimal; padding-top:4px}
+ol li ul.none li {list-style:none}
+ol li ul.none li ol.norm li {list-style:decimal}
+ol li ul.none li ol.norm li ol li {list-style:decimal; padding-top:4px}
+
+/* definition lists */
+dl.inline dt, dl.inline dd { float:none; display:inline; }
+dl.inline dd { padding-left:.25em }
+
+dt.normal { font-weight:normal }
+
+/* blockquotes */
+blockquote.centered {font-size:14px; text-align:center}
+.b004 blockquote.centered {background:#D5E9FF}
+blockquote.checklist {padding:0 42px}
+
+/* form inputs */
+input.text1, textarea.area1, textarea.area2, 
+select.select1 {width:160px}
+select.select2 {width:260px}
+select.select3 {width:80px}
+select.select4 {width:120px}
+input.text2 {width:260px}
+input.text3 {width:28px}
+input.text4 {width:120px}
+input.text5 {width:30px}
+input.text6 {width:36px}
+input.text7 {width:40px}
+input.text8 {width:92px}
+input.radio, input.checkbox {width:20px; clear:both; margin-bottom:6px;}
+label, .radiolabel, .checklabel, .textlabel, .selectlabel {
+	font-weight:bold;
+	padding:0; 
+	margin:2px 0 14px 0; 
+	/* \*/
+	margin:2px 0 10px 0; 
+	/* */ 
+	}	
+.textlabelv {
+	margin:2px 0 6px 0; 
+	/* \*/
+	margin:2px 0 2px 0; 
+	/* */ 
+	}
+input.radio, input.checkbox, .radiolabel, .checklabel, .textlabel, .textlabelv, .selectlabel {display:block; float:left}
+.plainlabel, .radiolabel, .checklabel, .radiolabellast, .checklabellast {font-weight:normal}
+.radiolabel, .checklabel, .radiolabellast, .checklabellast {width:320px}
+.radiolabellast, .checklabellast {margin-bottom:8px}
+.textlabel, .textlabelv, .selectlabel {width:160px; clear:both}
+.textlabel b, .textlabelv b, .selectlabel b, .textlabel2 b {color:#C00}
+textarea.area1 {height:45px; margin-top:4px}
+textarea.area2 {height:85px; margin-top:4px}
+
+/* table styles */
+td.center, th.center {text-align:center}
+td.right, th.right {text-align:right}
+
+/* important information - em is just for the merchants, red-normal */
+.important, .important p,
+.important a:link, .important a:visited, .important a:hover,
+a.important:link, a.important:visited, a.important:hover {color:#c00}
+
+/* errors */
+.error, .error p, .error a:link, .error a:visited, .error a:hover, .error a:active {color:#c00}
+ul.error {list-style:none outside; margin:0; padding:10px 0}
+ul.error li {padding:0; font-weight:bold}
+
+/* error messages */
+dl.error {color:#000; margin:8px 0 0 0}
+dl.error b {color:#C00}
+dl.error dd {margin:0 0 4px 8px}
+div.b701 p {padding-bottom:0px !important}
+
+/* breaks etc. */
+.break {display:block}
+.clear {clear:both}
+.center {text-align:center}
+div.rowright {float:right} 										/* just for h05, h06 - works with .w01b */
+
+/* wrappers for h and v spacers */
+/* Example: <div class="hspace"><hr /></div> */
+.hspace, .hspace2 {clear:none; height:4px; line-height:4px}
+.hspace {width:8px}												/* for concurrent modules w/in a common b wrapper */
+.hspace2 {width:9px}											/* hspace2 is just for use w/ p09 */
+.vspace, .v30, .vclear {float:none; clear:both}
+.vspace, .v30 {height:4px; width:8px; line-height:4px}
+.vclear {/* \*/ height:4px; width:4px; /* */}
+.hspace hr, .hspace2 hr, .vspace hr, .v30 hr, .vclear hr {display:none}
+.v30 {height:30px; line-height:30px}
+
+/* arrows */
+.dotarrow p, .dotarrow a:link, .dotarrow a:visited, .dotarrow a:hover, a.dotarrow:link, a.dotarrow:visited, a.dotarrow:hover {background:url(http://www.dallasdesigns.org/webtraining/regex/sbd/img/dotarrow.gif) no-repeat 0 5px; padding-left:10px; display:block}
+.uparrow p, .uparrow a:link, .uparrow a:visited, .uparrow a:hover, a.uparrow:link, a.uparrow:visited, a.uparrow:hover {background:url(http://www.dallasdesigns.org/webtraining/regex/sbd/img/uparrow.gif) no-repeat 0 5px; padding-left:10px; display:block}
+.downarrow p, .downarrow a:link, .downarrow a:visited, .downarrow a:hover, a.downarrow:link, a.downarrow:visited, a.downarrow:hover {background:url(http://www.dallasdesigns.org/webtraining/regex/sbd/img/downarrow.gif) no-repeat 0 5px; padding-left:10px; display:block}
+.uparrowi p, .uparrowi a:link, .uparrowi a:visited, .uparrowi a:hover, a.uparrowi:link, a.uparrowi:visited, a.uparrowi:hover {background:url(http://www.dallasdesigns.org/webtraining/regex/sbd/img/uparrowwhite.gif) no-repeat 0 5px; padding-left:10px}
+.leftarrow p, .leftarrow a:link, .leftarrow a:visited, .leftarrow a:hover, a.leftarrow:link, a.leftarrow:visited, a.leftarrow:hover {background:url(http://www.dallasdesigns.org/webtraining/regex/sbd/img/ico/leftarrow.gif) no-repeat 0 5px; padding-left:10px; display:block}
+
+.w02.inkdropmyacct p a.dotarrow { display:inline } /* I think the default dotarrow style is flawed, but just in case... */
+
+/* notes and bylines are small grey - light is normal size grey - small is just for the merchants */
+.note, .note p, .note a:link, .note a:visited, .note a:hover, a.note:link, a.note:visited, a.note:hover,
+.byline, .byline p, .byline a:link, .byline a:visited, .byline a:hover, a.byline:link, a.byline:visited, a.byline:hover,
+.light, .light a:link, .light a:visited, .light a:hover, a.light:link, a.light:visited, a.light:hover {color:#666}
+.note, .note p, .note a:link, .note a:visited, .note a:hover, a.note:link, a.note:visited, a.note:hover,
+.byline, .byline p, .byline a:link, .byline a:visited, .byline a:hover, a.byline:link, a.byline:visited, a.byline:hover {font-size:10px}
+
+/* specials and alert blocks */
+.alert {background:#FFD599; padding:4px 4px}
+.b501 .alert, .b511 .alert {background:#F4DFFF}
+.special {background:#FFC; padding:4px 4px}
+
+/* word wrappers */
+.w01, .w01b, .w015, .w016, .w02, .w03, .w04, .w11, .w12 {margin:0; padding:6px}
+
+.w01 {
+	\width:181px;
+	w\idth:169px
+	}
+	
+/* .w01b is JUST for h05, h06 - works with div.rowright */
+.w01b {
+	\width:189px;
+	w\idth:177px
+	}
+
+.w015 {
+	\width:275px;
+	w\idth:263px
+	}
+	
+.w016 {
+	\width:276px;
+	w\idth:264px
+	}
+	
+.w02 {
+	\width:370px;
+	w\idth:358px
+	}
+	
+.w03 {
+	\width:559px;
+	w\idth:547px
+	}
+	
+.w04 {
+	\width:748px;
+	w\idth:736px
+	}
+	
+/* 3-col layout, 1 column */
+.w11 {
+	\width:244px;
+	w\idth:232px
+	}
+	
+/* 3-col layout, 2 column */
+.w12 {
+	\width:496px;
+	w\idth:484px
+	}
+
+/* popups */
+#pgraysmall, #pgraylarge {background:#999 url(http://www.dallasdesigns.org/webtraining/regex/sbd/img/bg_gray.gif) repeat 0 0}
+#pgraysmall, #pp01 {width:398px}
+#pgraylarge, #pp02 {width:564px}
+#popup {padding:8px 4px 8px 0}
+#popbody {background:#fff; color:#000; padding-left:4px}
+#pp01 img, #pp02 img {float:left; margin:0 8px}
+#popclose {float:right; font-size:10px}
+#popclose img {float:none}
+
+#debug {display:block; clear:none; float:none}
+
+/* new to inkdrop */
+#popup .c00 { width:100% }
+
+/* EZ Rebates updates */
+dl.ordersubreb dt { font-weight:normal }
+dl.ordersubreb dt, dl.ordersubreb dd { line-height:150% }
+dl.ordersubreb dd { border-bottom:1px #999 dashed; padding:8px 0 }
+dl.ordersubreb dd.last { border:0; padding-bottom:0 }
+span.ezprntonly { display:none }
+
+.w03.b424, .w02.b424 { padding-bottom:0 !important}

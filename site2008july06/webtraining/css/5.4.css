@@ -1,0 +1,48 @@
+/* CSS Document */
+
+body
+{
+	font-family: Arial, sans-serif;
+	color: black;
+	background-color: white;
+}
+
+.header h1
+{
+	font-family: Verdana, sans-serif;
+	color: fuchsia;
+}
+.header p
+{
+	font-family: "Courier New", monospace;
+	color: teal;
+	font-size: larger;
+}
+.header cite
+{
+	color: purple;
+}
+.opinion h2
+{
+	color: white;
+	background-color: navy;
+	font-family: Arial, sans-serif;
+}
+em
+{
+	font-size: larger;
+}
+p cite
+{
+	color: white;
+	background-color: black;
+}
+.footer
+{
+	font-family: "Times New Roman", serif;
+	font-size: small;
+}
+.footer a
+{
+	color: green;
+}
