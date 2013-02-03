@@ -41,10 +41,10 @@ if ( !$_POST['name'] == '' )
 	$category = nextCategory();
 	//record the code for the category
 	$stringXML .= "<category>$category</category>\n";
-	//record the code for the name
+	//record the code for the caption
 	$caption = $_POST['caption'];
 	$stringXML .= "<caption><![CDATA[$caption]]></caption>\n";
-	//record the code for the name
+	//record the code for the theme
 	$theme = $_POST['theme'];
 	$stringXML .= "<theme>$theme</theme>\n";
 	//record the end tag and final tag
