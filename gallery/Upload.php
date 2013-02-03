@@ -2,18 +2,19 @@
 //check if the user has logged in
 session_start();
 
+if(!$_SESSION['login']) {
+	//send the user to the login page
+	header('Location: Login.php');
+}
+
 $fdir = "images/";   // Path To Images Directory 
 $tdir = "images/thumbs/";   // Path To Thumbnails Directory 
+$odir = "images/original/"; // Path to full size images
 $tempdir = "images/temp/";  //Temporary bucket for uploaded images
 $twidth = "120";   // Maximum Width For Thumbnail Images 
 $theight = "120";   // Maximum Height For Thumbnail Images 
 $fwidth = "640";  //Maximum Width for main images
 $fheight = "640";  //Maximum height for main images
-
-if(!$_SESSION['login']) {
-	//send the user to the login page
-	header('Location: Login.php');
-}
 
 if ($_GET['cmd'] == "bulk")
 {
@@ -41,11 +42,13 @@ if ( trim($_FILES['imagefile']['name']) != '' && $_POST['category'] != 0)
 	
 		$filename = getFilename($test);
 		//copy the image to the thumbs folder => thumbnail image
-		$tcopy = copy($_FILES['imagefile']['tmp_name'], $tdir . $filename );   // Move Image From Temporary Location To Permanent Location 
+		$tcopy = copy($_FILES['imagefile']['tmp_name'], $tdir . $filename );   // Move Image From Temporary Location To Permanent Thumb size Location 
 		//copy the image to the images folder => main image
-		$fcopy = copy($_FILES['imagefile']['tmp_name'], $fdir . $filename);  // Move Image From Temporary Location To Permanent Location 
+		$fcopy = copy($_FILES['imagefile']['tmp_name'], $fdir . $filename);  // Move Image From Temporary Location To Permanent Full Size Location 
+		//copy the image to the original folder => main image
+		$ocopy = copy($_FILES['imagefile']['tmp_name'], $odir . $filename);  // Move Image From Temporary Location To Permanent Original Size Location 
 		
-		if (!$tcopy || !$fcopy || $filename == false) {   // If The Script Was Able To Copy The Image To It's Permanent Location 
+		if (!$tcopy || !$fcopy || !$ocopy || $filename == false) {   // If The Script Was Able To Copy The Image To It's Permanent Location 
       		print 'Image uploaded not successful.<br />';   // Was unable To Successfully Upload Image 
 		}
 		//create the thumbnail and full size images
@@ -63,8 +66,8 @@ if ( trim($_FILES['imagefile']['name']) != '' && $_POST['category'] != 0)
 } 
 function getFilename($file)
 {
-	//delay by one second to ensure a unique file name
-	sleep (1);
+	//delay by a tenth of a second to ensure a unique file name
+	sleep (.1);
 	//create a new file name using the current date and time
 	if ( preg_match ( '/png/i', $file) ) {
 		$fname = preg_replace("/[^a-zA-Z0-9s]/", "", Date(c)).".png"; 
@@ -103,6 +106,8 @@ function buildGallery($file,$dir)
 	copy($sourceFile, $tdir . $filename );
 	//copu the image to the thumbs folder
 	copy($sourceFile, $fdir . $filename );
+	//copu the image to the original folder
+	copy($sourceFile, $odir . $filename );
 	//resize the main image
 	createImage ( $filename, $fheight, $fwidth, $fdir);
 	//resize the thumbnail image
@@ -312,7 +317,7 @@ function updateXML($file)
 <body>
 <?php include ('Top.php'); ?><br />
 <font color="#FF0000"><?php echo $message; ?></font>
-<form method="post" action="Upload.php?cmd=single" onsubmit="return validate_form(this)" enctype="multipart/form-data"> 
+<form method="post" action="Upload.php?cmd=single" onSubmit="return validate_form(this)" enctype="multipart/form-data"> 
 	File:<br /> 
 	<input type="file" name="imagefile" class="form"> 
 	<br /><br />

@@ -13,3 +13,6 @@ Desktop.ini
 
 # private files
 gallery/Login.php
+
+#temp folder
+gallery/images/temp
